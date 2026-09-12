@@ -1,0 +1,8 @@
+/datasets/
+/data/
+/mp3d/
+*.ckpt
+/web/node_modules/
+/web/dist/
+/web/.vite/
+*.tsbuildinfo

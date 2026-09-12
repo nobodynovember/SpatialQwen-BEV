@@ -1,0 +1,1627 @@
+[2026-04-29 23:01:14] [bev process] model_server started pid=8849; waiting for models to load …
+[2026-04-29 23:01:16] [model_server pid=8849] starting … loading CLIP + LSeg models
+[2026-04-29 23:01:16] [model_server pid=8849] loading CLIP model for text features …
+[2026-04-29 23:01:17] [model_server pid=8849] loading LSeg model …
+[2026-04-29 23:01:22] [model_server pid=8849] models loaded dt=6.249s labels=40 clip_feat_dim=512
+[2026-04-29 23:01:22] [bev process] model_server ready (pid=8849)
+[2026-04-29 23:01:31] [bev process] worker switched old_pid=None -> new_pid=8971 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-04-29 23:01:33] [bev worker 8971] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-04-29 23:01:55] [bev worker 8971] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=22.608s
+[2026-04-29 23:02:05] [bev worker 8971] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-04-29 23:02:22] [bev worker 8971] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.135s
+[2026-04-29 23:02:43] [bev worker 8971] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-04-29 23:03:14] [bev worker 8971] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=31.520s
+[2026-04-29 23:03:38] [bev worker 8971] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-04-29 23:04:11] [bev worker 8971] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=32.784s
+[2026-04-29 23:04:31] [bev worker 8971] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-04-29 23:04:48] [bev worker 8971] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.155s
+[2026-04-29 23:07:15] [bev process] model_server started pid=9105; waiting for models to load …
+[2026-04-29 23:07:17] [model_server pid=9105] starting … loading CLIP + LSeg models
+[2026-04-29 23:07:17] [model_server pid=9105] loading CLIP model for text features …
+[2026-04-29 23:07:19] [model_server pid=9105] loading LSeg model …
+[2026-04-29 23:07:23] [model_server pid=9105] models loaded dt=6.121s labels=40 clip_feat_dim=512
+[2026-04-29 23:07:23] [bev process] model_server ready (pid=9105)
+[2026-04-29 23:07:32] [bev process] worker switched old_pid=None -> new_pid=9227 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-04-29 23:07:34] [bev worker 9227] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-04-29 23:08:02] [bev worker 9227] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=27.153s
+[2026-04-29 23:08:12] [bev worker 9227] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 17:26:55] [bev process] model_server started pid=130; waiting for models to load …
+[2026-07-17 17:26:57] [model_server pid=130] starting … loading CLIP + LSeg models
+[2026-07-17 17:26:58] [model_server pid=130] loading CLIP model for text features …
+[2026-07-17 17:27:03] [model_server pid=130] loading LSeg model …
+[2026-07-17 17:27:45] [model_server pid=130] models loaded dt=47.099s labels=40 clip_feat_dim=512
+[2026-07-17 17:27:45] [bev process] model_server ready (pid=130)
+[2026-07-17 17:30:19] [bev process] model_server started pid=319; waiting for models to load …
+[2026-07-17 17:30:21] [model_server pid=319] starting … loading CLIP + LSeg models
+[2026-07-17 17:30:21] [model_server pid=319] loading CLIP model for text features …
+[2026-07-17 17:30:22] [model_server pid=319] loading LSeg model …
+[2026-07-17 17:30:27] [model_server pid=319] models loaded dt=6.167s labels=40 clip_feat_dim=512
+[2026-07-17 17:30:27] [bev process] model_server ready (pid=319)
+[2026-07-17 17:45:43] [bev process] model_server started pid=601; waiting for models to load …
+[2026-07-17 17:45:45] [model_server pid=601] starting … loading CLIP + LSeg models
+[2026-07-17 17:45:45] [model_server pid=601] loading CLIP model for text features …
+[2026-07-17 17:45:47] [model_server pid=601] loading LSeg model …
+[2026-07-17 17:46:08] [model_server pid=601] models loaded dt=23.011s labels=40 clip_feat_dim=512
+[2026-07-17 17:46:08] [bev process] model_server ready (pid=601)
+[2026-07-17 17:46:14] [bev process] worker switched old_pid=None -> new_pid=723 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 17:46:16] [bev worker 723] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 17:46:52] [bev worker 723] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=35.583s
+[2026-07-17 17:47:00] [bev worker 723] start BEV build scan=VLzqgDo317F viewpoint=c55fa077761c4154af4b26da88eee80d
+[2026-07-17 17:47:24] [bev worker 723] finish BEV build scan=VLzqgDo317F viewpoint=c55fa077761c4154af4b26da88eee80d dt=23.927s
+[2026-07-17 18:01:17] [bev process] model_server started pid=858; waiting for models to load …
+[2026-07-17 18:01:19] [model_server pid=858] starting … loading CLIP + LSeg models
+[2026-07-17 18:01:19] [model_server pid=858] loading CLIP model for text features …
+[2026-07-17 18:01:20] [model_server pid=858] loading LSeg model …
+[2026-07-17 18:01:34] [model_server pid=858] models loaded dt=15.601s labels=40 clip_feat_dim=512
+[2026-07-17 18:01:34] [bev process] model_server ready (pid=858)
+[2026-07-17 18:09:05] [bev process] model_server started pid=1050; waiting for models to load …
+[2026-07-17 18:09:07] [model_server pid=1050] starting … loading CLIP + LSeg models
+[2026-07-17 18:09:07] [model_server pid=1050] loading CLIP model for text features …
+[2026-07-17 18:09:09] [model_server pid=1050] loading LSeg model …
+[2026-07-17 18:09:16] [model_server pid=1050] models loaded dt=9.010s labels=40 clip_feat_dim=512
+[2026-07-17 18:09:16] [bev process] model_server ready (pid=1050)
+[2026-07-17 18:09:24] [bev process] worker switched old_pid=None -> new_pid=1172 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 18:09:26] [bev worker 1172] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 18:09:52] [bev worker 1172] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=26.301s
+[2026-07-17 18:10:12] [bev worker 1172] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 18:10:30] [bev worker 1172] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=18.540s
+[2026-07-17 18:10:55] [bev worker 1172] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 18:11:14] [bev worker 1172] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=19.481s
+[2026-07-17 18:11:31] [bev worker 1172] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 18:12:33] [bev process] model_server started pid=1306; waiting for models to load …
+[2026-07-17 18:12:35] [model_server pid=1306] starting … loading CLIP + LSeg models
+[2026-07-17 18:12:35] [model_server pid=1306] loading CLIP model for text features …
+[2026-07-17 18:12:36] [model_server pid=1306] loading LSeg model …
+[2026-07-17 18:12:41] [model_server pid=1306] models loaded dt=6.396s labels=40 clip_feat_dim=512
+[2026-07-17 18:12:41] [bev process] model_server ready (pid=1306)
+[2026-07-17 18:12:46] [bev process] worker switched old_pid=None -> new_pid=1428 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 18:12:49] [bev worker 1428] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 18:13:11] [bev worker 1428] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=22.569s
+[2026-07-17 18:13:28] [bev worker 1428] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 18:13:45] [bev worker 1428] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.418s
+[2026-07-17 18:14:06] [bev worker 1428] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 18:14:24] [bev worker 1428] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=17.225s
+[2026-07-17 18:14:39] [bev worker 1428] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 18:14:57] [bev worker 1428] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=17.930s
+[2026-07-17 18:22:00] [bev process] model_server started pid=1570; waiting for models to load …
+[2026-07-17 18:22:02] [model_server pid=1570] starting … loading CLIP + LSeg models
+[2026-07-17 18:22:02] [model_server pid=1570] loading CLIP model for text features …
+[2026-07-17 18:22:04] [model_server pid=1570] loading LSeg model …
+[2026-07-17 18:22:09] [model_server pid=1570] models loaded dt=6.261s labels=40 clip_feat_dim=512
+[2026-07-17 18:22:09] [bev process] model_server ready (pid=1570)
+[2026-07-17 18:22:15] [bev process] worker switched old_pid=None -> new_pid=1692 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 18:22:17] [bev worker 1692] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 18:22:40] [bev worker 1692] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=22.523s
+[2026-07-17 18:22:59] [bev worker 1692] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 18:23:16] [bev worker 1692] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.274s
+[2026-07-17 18:23:40] [bev worker 1692] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 18:23:57] [bev worker 1692] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=16.962s
+[2026-07-17 18:24:13] [bev worker 1692] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 18:24:37] [bev worker 1692] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=23.406s
+[2026-07-17 18:24:52] [bev worker 1692] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-17 18:25:10] [bev worker 1692] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.406s
+[2026-07-17 18:25:27] [bev process] worker stopped pid=1692 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-17 18:25:27] [bev process] worker switched old_pid=1692 -> new_pid=1762 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-17 18:25:29] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-17 18:25:59] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=30.126s
+[2026-07-17 18:26:14] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-17 18:26:32] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.219s
+[2026-07-17 18:26:52] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-17 18:27:10] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.441s
+[2026-07-17 18:27:28] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-17 18:27:47] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.467s
+[2026-07-17 18:28:08] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-17 18:28:32] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=24.019s
+[2026-07-17 18:28:52] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-17 18:29:17] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=24.707s
+[2026-07-17 18:29:38] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-17 18:30:06] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=28.280s
+[2026-07-17 18:30:23] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-17 18:30:43] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.592s
+[2026-07-17 18:31:03] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-17 18:31:23] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.713s
+[2026-07-17 18:31:38] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-17 18:31:59] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=20.218s
+[2026-07-17 18:32:14] [bev worker 1762] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-07-17 18:32:34] [bev worker 1762] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=20.252s
+[2026-07-17 19:57:47] [bev process] model_server started pid=1928; waiting for models to load …
+[2026-07-17 19:57:49] [model_server pid=1928] starting … loading CLIP + LSeg models
+[2026-07-17 19:57:49] [model_server pid=1928] loading CLIP model for text features …
+[2026-07-17 19:57:51] [model_server pid=1928] loading LSeg model …
+[2026-07-17 19:57:55] [model_server pid=1928] models loaded dt=6.263s labels=40 clip_feat_dim=512
+[2026-07-17 19:57:55] [bev process] model_server ready (pid=1928)
+[2026-07-17 19:58:02] [bev process] worker switched old_pid=None -> new_pid=2050 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 19:58:04] [bev worker 2050] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 19:58:36] [bev worker 2050] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=32.223s
+[2026-07-17 19:58:55] [bev worker 2050] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 19:59:12] [bev worker 2050] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.208s
+[2026-07-17 19:59:36] [bev worker 2050] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 19:59:58] [bev worker 2050] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=21.982s
+[2026-07-17 20:00:14] [bev worker 2050] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 20:00:32] [bev worker 2050] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=17.998s
+[2026-07-17 20:00:48] [bev worker 2050] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-17 20:01:05] [bev worker 2050] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.661s
+[2026-07-17 20:01:22] [bev process] worker stopped pid=2050 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-17 20:01:22] [bev process] worker switched old_pid=2050 -> new_pid=2117 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-17 20:01:24] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-17 20:01:48] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=23.201s
+[2026-07-17 20:02:02] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-17 20:02:21] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.554s
+[2026-07-17 20:02:40] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-17 20:02:59] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.837s
+[2026-07-17 20:03:16] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-17 20:03:42] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=25.446s
+[2026-07-17 20:04:02] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-17 20:04:21] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.741s
+[2026-07-17 20:04:42] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-17 20:05:01] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=19.114s
+[2026-07-17 20:05:20] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-17 20:05:40] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.931s
+[2026-07-17 20:06:01] [bev worker 2117] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-17 20:06:23] [bev worker 2117] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=21.142s
+[2026-07-17 20:41:55] [bev process] model_server started pid=346; waiting for models to load …
+[2026-07-17 20:41:57] [model_server pid=346] starting … loading CLIP + LSeg models
+[2026-07-17 20:41:57] [model_server pid=346] loading CLIP model for text features …
+[2026-07-17 20:41:58] [model_server pid=346] loading LSeg model …
+[2026-07-17 20:42:03] [model_server pid=346] models loaded dt=6.596s labels=40 clip_feat_dim=512
+[2026-07-17 20:42:03] [bev process] model_server ready (pid=346)
+[2026-07-17 20:42:10] [bev process] worker switched old_pid=None -> new_pid=468 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 20:42:12] [bev worker 468] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 20:43:05] [bev process] model_server started pid=600; waiting for models to load …
+[2026-07-17 20:43:07] [model_server pid=600] starting … loading CLIP + LSeg models
+[2026-07-17 20:43:07] [model_server pid=600] loading CLIP model for text features …
+[2026-07-17 20:43:09] [model_server pid=600] loading LSeg model …
+[2026-07-17 20:43:13] [model_server pid=600] models loaded dt=6.275s labels=40 clip_feat_dim=512
+[2026-07-17 20:43:13] [bev process] model_server ready (pid=600)
+[2026-07-17 20:43:19] [bev process] worker switched old_pid=None -> new_pid=722 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 20:43:21] [bev worker 722] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 20:43:43] [bev worker 722] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=22.350s
+[2026-07-17 20:44:02] [bev worker 722] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 20:44:19] [bev worker 722] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.281s
+[2026-07-17 20:44:43] [bev worker 722] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 20:45:00] [bev worker 722] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=16.770s
+[2026-07-17 20:45:16] [bev worker 722] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 20:45:34] [bev worker 722] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=17.585s
+[2026-07-17 20:45:49] [bev worker 722] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-17 20:46:07] [bev worker 722] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.238s
+[2026-07-17 20:46:24] [bev process] worker stopped pid=722 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-17 20:46:24] [bev process] worker switched old_pid=722 -> new_pid=789 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-17 20:46:26] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-17 20:46:48] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=22.626s
+[2026-07-17 20:47:03] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-17 20:47:22] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.852s
+[2026-07-17 20:47:41] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-17 20:48:00] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.218s
+[2026-07-17 20:48:20] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-17 20:48:38] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.333s
+[2026-07-17 20:48:59] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-17 20:49:17] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=18.727s
+[2026-07-17 20:49:37] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-17 20:49:56] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.498s
+[2026-07-17 20:50:17] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-17 20:50:38] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=20.786s
+[2026-07-17 20:50:54] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-17 20:51:13] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.422s
+[2026-07-17 20:51:33] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-17 20:51:53] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.768s
+[2026-07-17 20:52:09] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-17 20:52:31] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=21.933s
+[2026-07-17 20:52:46] [bev worker 789] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-07-17 20:53:07] [bev worker 789] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=21.179s
+[2026-07-17 20:53:36] [bev process] worker stopped pid=789 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-17 20:53:36] [bev process] worker switched old_pid=789 -> new_pid=855 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-17 20:53:56] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-17 20:54:29] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10 dt=33.302s
+[2026-07-17 20:54:43] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e
+[2026-07-17 20:55:07] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e dt=24.266s
+[2026-07-17 20:55:25] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0
+[2026-07-17 20:55:46] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0 dt=20.672s
+[2026-07-17 20:56:02] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704
+[2026-07-17 20:56:22] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704 dt=19.565s
+[2026-07-17 20:56:42] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=f032c9ee981a4462914468785f0a4abe
+[2026-07-17 20:57:01] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=f032c9ee981a4462914468785f0a4abe dt=18.506s
+[2026-07-17 20:57:21] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=01b439d39a8f412fa1837be7afb45254
+[2026-07-17 20:57:38] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=01b439d39a8f412fa1837be7afb45254 dt=17.135s
+[2026-07-17 20:57:58] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a
+[2026-07-17 20:58:17] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a dt=18.475s
+[2026-07-17 20:58:38] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=550d66ef28114bef8525d3a2d6db9cd2
+[2026-07-17 20:58:55] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=550d66ef28114bef8525d3a2d6db9cd2 dt=16.764s
+[2026-07-17 20:59:18] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=5186e9da9b4248318f4a7ae68d11da15
+[2026-07-17 20:59:35] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=5186e9da9b4248318f4a7ae68d11da15 dt=17.564s
+[2026-07-17 20:59:55] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=32c24c4472f346bc9b292f8997b9f82e
+[2026-07-17 21:00:18] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=32c24c4472f346bc9b292f8997b9f82e dt=22.667s
+[2026-07-17 21:00:39] [bev worker 855] start BEV build scan=8WUmhLawc2A viewpoint=04f548967cfc4e98a79d1e2494b74606
+[2026-07-17 21:00:58] [bev worker 855] finish BEV build scan=8WUmhLawc2A viewpoint=04f548967cfc4e98a79d1e2494b74606 dt=19.245s
+[2026-07-17 21:01:32] [bev process] worker stopped pid=855 mode=graceful stats(graceful=3,terminate=0,kill=0)
+[2026-07-17 21:01:32] [bev process] worker switched old_pid=855 -> new_pid=921 reason=reset scan=p5wJjkQkbXX restart_count=4
+[2026-07-17 21:01:34] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def
+[2026-07-17 21:02:03] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def dt=29.103s
+[2026-07-17 21:02:15] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb
+[2026-07-17 21:02:45] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb dt=30.099s
+[2026-07-17 21:03:02] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617
+[2026-07-17 21:03:19] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617 dt=17.545s
+[2026-07-17 21:03:37] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c
+[2026-07-17 21:03:56] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c dt=18.695s
+[2026-07-17 21:04:17] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963
+[2026-07-17 21:04:36] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963 dt=18.431s
+[2026-07-17 21:04:56] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12
+[2026-07-17 21:05:21] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12 dt=25.051s
+[2026-07-17 21:05:42] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13
+[2026-07-17 21:06:02] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13 dt=19.826s
+[2026-07-17 21:06:23] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48
+[2026-07-17 21:06:43] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48 dt=20.256s
+[2026-07-17 21:07:04] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-17 21:07:38] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=34.783s
+[2026-07-17 21:07:52] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323
+[2026-07-17 21:08:13] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323 dt=20.561s
+[2026-07-17 21:08:18] [bev worker 921] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-17 21:08:40] [bev worker 921] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=22.619s
+[2026-07-17 21:28:43] [bev process] model_server started pid=1058; waiting for models to load …
+[2026-07-17 21:28:45] [model_server pid=1058] starting … loading CLIP + LSeg models
+[2026-07-17 21:28:45] [model_server pid=1058] loading CLIP model for text features …
+[2026-07-17 21:28:49] [model_server pid=1058] loading LSeg model …
+[2026-07-17 21:29:33] [model_server pid=1058] models loaded dt=47.786s labels=40 clip_feat_dim=512
+[2026-07-17 21:29:33] [bev process] model_server ready (pid=1058)
+[2026-07-17 21:29:41] [bev process] worker switched old_pid=None -> new_pid=1180 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 21:29:43] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 21:30:17] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=34.027s
+[2026-07-17 21:30:36] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 21:30:54] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.631s
+[2026-07-17 21:31:17] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 21:31:49] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=31.842s
+[2026-07-17 21:32:06] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 21:32:44] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=38.066s
+[2026-07-17 21:33:00] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-17 21:33:32] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=31.855s
+[2026-07-17 21:33:48] [bev process] worker stopped pid=1180 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-17 21:33:48] [bev process] worker switched old_pid=1180 -> new_pid=1247 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-17 21:33:50] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-17 21:34:15] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=24.707s
+[2026-07-17 21:34:30] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-17 21:34:48] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.286s
+[2026-07-17 21:35:09] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-17 21:35:27] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.326s
+[2026-07-17 21:35:45] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-17 21:36:04] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.504s
+[2026-07-17 21:36:25] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-17 21:36:49] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=23.947s
+[2026-07-17 21:37:08] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-17 21:37:27] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.428s
+[2026-07-17 21:37:48] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-17 21:38:09] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=20.797s
+[2026-07-17 21:38:25] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-17 21:38:44] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.499s
+[2026-07-17 21:39:04] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-17 21:39:24] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.540s
+[2026-07-17 21:39:39] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-17 21:39:59] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=19.838s
+[2026-07-17 21:40:14] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-07-17 21:40:33] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=19.851s
+[2026-07-17 21:41:01] [bev process] worker stopped pid=1247 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-17 21:41:01] [bev process] worker switched old_pid=1247 -> new_pid=1313 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-17 21:41:03] [bev worker 1313] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-17 21:41:03] [bev process] worker build failed once: worker_pipe_closed; restarting worker and retrying retry_count=1
+[2026-07-17 21:41:03] [bev process] worker stopped pid=1313 mode=none stats(graceful=2,terminate=0,kill=0)
+[2026-07-17 21:41:03] [bev process] worker switched old_pid=1313 -> new_pid=1378 reason=retry scan=8WUmhLawc2A restart_count=4
+[2026-07-17 21:41:05] [bev worker 1378] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-17 21:49:17] [bev process] model_server started pid=132; waiting for models to load …
+[2026-07-17 21:49:19] [model_server pid=132] starting … loading CLIP + LSeg models
+[2026-07-17 21:49:19] [model_server pid=132] loading CLIP model for text features …
+[2026-07-17 21:49:20] [model_server pid=132] loading LSeg model …
+[2026-07-17 21:49:25] [model_server pid=132] models loaded dt=6.337s labels=40 clip_feat_dim=512
+[2026-07-17 21:49:25] [bev process] model_server ready (pid=132)
+[2026-07-17 21:49:32] [bev process] worker switched old_pid=None -> new_pid=254 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 21:49:34] [bev worker 254] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-17 21:50:02] [bev worker 254] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=27.793s
+[2026-07-17 21:50:21] [bev worker 254] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 21:50:49] [bev worker 254] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=27.656s
+[2026-07-17 21:51:12] [bev worker 254] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 21:51:29] [bev worker 254] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=16.894s
+[2026-07-17 21:51:46] [bev worker 254] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 21:52:04] [bev worker 254] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=17.728s
+[2026-07-17 21:52:19] [bev worker 254] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-17 21:52:36] [bev worker 254] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.266s
+[2026-07-17 21:52:53] [bev process] worker stopped pid=254 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-17 21:52:53] [bev process] worker switched old_pid=254 -> new_pid=321 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-17 21:52:55] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-17 21:53:18] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=22.535s
+[2026-07-17 21:53:32] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-17 21:53:51] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.126s
+[2026-07-17 21:54:10] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-17 21:54:28] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.205s
+[2026-07-17 21:54:46] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-17 21:55:04] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.171s
+[2026-07-17 21:55:25] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-17 21:55:44] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=18.724s
+[2026-07-17 21:56:03] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-17 21:56:22] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.207s
+[2026-07-17 21:56:43] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-17 21:57:04] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=20.581s
+[2026-07-17 21:57:19] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-17 21:57:39] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.220s
+[2026-07-17 21:57:59] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-17 21:58:18] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.276s
+[2026-07-17 21:58:33] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-17 21:58:53] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=19.448s
+[2026-07-17 21:59:08] [bev worker 321] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-07-17 21:59:27] [bev worker 321] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=19.549s
+[2026-07-17 21:59:55] [bev process] worker stopped pid=321 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-17 21:59:55] [bev process] worker switched old_pid=321 -> new_pid=387 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-17 21:59:57] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-17 22:00:23] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10 dt=25.297s
+[2026-07-17 22:00:37] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e
+[2026-07-17 22:01:02] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e dt=25.480s
+[2026-07-17 22:01:20] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0
+[2026-07-17 22:01:40] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0 dt=19.963s
+[2026-07-17 22:01:56] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704
+[2026-07-17 22:02:16] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704 dt=19.322s
+[2026-07-17 22:02:36] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=f032c9ee981a4462914468785f0a4abe
+[2026-07-17 22:02:54] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=f032c9ee981a4462914468785f0a4abe dt=18.404s
+[2026-07-17 22:03:15] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=01b439d39a8f412fa1837be7afb45254
+[2026-07-17 22:03:32] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=01b439d39a8f412fa1837be7afb45254 dt=17.114s
+[2026-07-17 22:03:52] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a
+[2026-07-17 22:04:10] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a dt=18.851s
+[2026-07-17 22:04:31] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=550d66ef28114bef8525d3a2d6db9cd2
+[2026-07-17 22:04:48] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=550d66ef28114bef8525d3a2d6db9cd2 dt=17.047s
+[2026-07-17 22:05:11] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=5186e9da9b4248318f4a7ae68d11da15
+[2026-07-17 22:05:28] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=5186e9da9b4248318f4a7ae68d11da15 dt=17.500s
+[2026-07-17 22:05:48] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=32c24c4472f346bc9b292f8997b9f82e
+[2026-07-17 22:06:06] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=32c24c4472f346bc9b292f8997b9f82e dt=18.028s
+[2026-07-17 22:06:27] [bev worker 387] start BEV build scan=8WUmhLawc2A viewpoint=04f548967cfc4e98a79d1e2494b74606
+[2026-07-17 22:06:46] [bev worker 387] finish BEV build scan=8WUmhLawc2A viewpoint=04f548967cfc4e98a79d1e2494b74606 dt=19.051s
+[2026-07-17 22:07:21] [bev process] worker stopped pid=387 mode=graceful stats(graceful=3,terminate=0,kill=0)
+[2026-07-17 22:07:21] [bev process] worker switched old_pid=387 -> new_pid=453 reason=reset scan=p5wJjkQkbXX restart_count=4
+[2026-07-17 22:07:23] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def
+[2026-07-17 22:07:57] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def dt=34.205s
+[2026-07-17 22:08:12] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb
+[2026-07-17 22:08:36] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb dt=24.042s
+[2026-07-17 22:08:54] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617
+[2026-07-17 22:09:12] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617 dt=17.589s
+[2026-07-17 22:09:31] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c
+[2026-07-17 22:09:50] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c dt=18.722s
+[2026-07-17 22:10:10] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963
+[2026-07-17 22:10:29] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963 dt=18.317s
+[2026-07-17 22:10:49] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12
+[2026-07-17 22:11:08] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12 dt=18.775s
+[2026-07-17 22:11:29] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13
+[2026-07-17 22:11:48] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13 dt=19.575s
+[2026-07-17 22:12:09] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48
+[2026-07-17 22:12:29] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48 dt=20.017s
+[2026-07-17 22:12:49] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-17 22:13:11] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=21.452s
+[2026-07-17 22:13:25] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323
+[2026-07-17 22:13:45] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323 dt=20.113s
+[2026-07-17 22:13:50] [bev worker 453] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-17 22:14:19] [bev worker 453] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=28.617s
+[2026-07-17 22:15:01] [bev process] worker stopped pid=453 mode=graceful stats(graceful=4,terminate=0,kill=0)
+[2026-07-17 22:15:01] [bev process] worker switched old_pid=453 -> new_pid=519 reason=reset scan=SN83YJsR3w2 restart_count=5
+[2026-07-17 22:15:03] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf
+[2026-07-17 22:15:41] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf dt=37.460s
+[2026-07-17 22:16:08] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=35298dd1214345239f966099a1ddac3f
+[2026-07-17 22:16:29] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=35298dd1214345239f966099a1ddac3f dt=21.254s
+[2026-07-17 22:16:47] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=dfa82a372db7421aa7ecdb4d41343872
+[2026-07-17 22:17:05] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=dfa82a372db7421aa7ecdb4d41343872 dt=17.325s
+[2026-07-17 22:17:27] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf
+[2026-07-17 22:17:44] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf dt=17.424s
+[2026-07-17 22:18:06] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=d2cf7bc1308c4d1b86973b4ad1336404
+[2026-07-17 22:18:23] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=d2cf7bc1308c4d1b86973b4ad1336404 dt=17.176s
+[2026-07-17 22:18:38] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=6019439d967f4e5ab8332170d0d17a57
+[2026-07-17 22:18:54] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=6019439d967f4e5ab8332170d0d17a57 dt=16.305s
+[2026-07-17 22:19:11] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=913aefa5733c425eb79de9f5e225cd0e
+[2026-07-17 22:19:32] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=913aefa5733c425eb79de9f5e225cd0e dt=21.423s
+[2026-07-17 22:19:48] [bev worker 519] start BEV build scan=SN83YJsR3w2 viewpoint=f745a3bf638a40dd85e29ce98d8c2aba
+[2026-07-17 22:20:04] [bev worker 519] finish BEV build scan=SN83YJsR3w2 viewpoint=f745a3bf638a40dd85e29ce98d8c2aba dt=16.436s
+[2026-07-17 22:20:27] [bev process] worker stopped pid=519 mode=graceful stats(graceful=5,terminate=0,kill=0)
+[2026-07-17 22:20:27] [bev process] worker switched old_pid=519 -> new_pid=585 reason=reset scan=XcA2TqTSSAj restart_count=6
+[2026-07-17 22:20:29] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=eb7c8095d2514ab7a84732fa41ed3594
+[2026-07-17 22:21:00] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=eb7c8095d2514ab7a84732fa41ed3594 dt=30.625s
+[2026-07-17 22:21:13] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=bf22e389bd754181924923b4f5e0fe02
+[2026-07-17 22:21:32] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=bf22e389bd754181924923b4f5e0fe02 dt=19.080s
+[2026-07-17 22:21:50] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=c43ed5913b6d45e5aa3b782bfa860805
+[2026-07-17 22:22:08] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=c43ed5913b6d45e5aa3b782bfa860805 dt=18.269s
+[2026-07-17 22:22:20] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=ec0421cc61c64f6f8692d327d6838fd5
+[2026-07-17 22:22:48] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=ec0421cc61c64f6f8692d327d6838fd5 dt=27.724s
+[2026-07-17 22:23:03] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=02253cded39e4f26a34c483d645ebcb7
+[2026-07-17 22:23:24] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=02253cded39e4f26a34c483d645ebcb7 dt=20.987s
+[2026-07-17 22:23:40] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=fa065de5315940abb64684e68f6d686a
+[2026-07-17 22:23:57] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=fa065de5315940abb64684e68f6d686a dt=16.433s
+[2026-07-17 22:24:12] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=aa56e0f95db14b4481b0188dfd5b324f
+[2026-07-17 22:24:32] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=aa56e0f95db14b4481b0188dfd5b324f dt=19.771s
+[2026-07-17 22:24:48] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=b6985ed68dd8405e969fcbbcd6dfcc42
+[2026-07-17 22:25:13] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=b6985ed68dd8405e969fcbbcd6dfcc42 dt=25.259s
+[2026-07-17 22:25:29] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=213a5fa207dc491894df2f4405c40838
+[2026-07-17 22:25:57] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=213a5fa207dc491894df2f4405c40838 dt=27.777s
+[2026-07-17 22:26:13] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=1e2d321dc574469288c88e5ae2afb370
+[2026-07-17 22:26:28] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=1e2d321dc574469288c88e5ae2afb370 dt=14.941s
+[2026-07-17 22:26:43] [bev worker 585] start BEV build scan=XcA2TqTSSAj viewpoint=8fcf0b6f46b8465ab762e45a0060f6f0
+[2026-07-17 22:27:00] [bev worker 585] finish BEV build scan=XcA2TqTSSAj viewpoint=8fcf0b6f46b8465ab762e45a0060f6f0 dt=16.365s
+[2026-07-17 22:27:40] [bev process] worker stopped pid=585 mode=graceful stats(graceful=6,terminate=0,kill=0)
+[2026-07-17 22:27:40] [bev process] worker switched old_pid=585 -> new_pid=651 reason=reset scan=7y3sRwLe3Va restart_count=7
+[2026-07-17 22:27:42] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=e29484c59af4429981a6a5d5afe4d5a0
+[2026-07-17 22:28:22] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=e29484c59af4429981a6a5d5afe4d5a0 dt=39.978s
+[2026-07-17 22:28:36] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=d8cae4c7073346e392d3996254bf741c
+[2026-07-17 22:29:08] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=d8cae4c7073346e392d3996254bf741c dt=32.122s
+[2026-07-17 22:29:27] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=af5f1942b4374015823bd32e31b31c64
+[2026-07-17 22:29:52] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=af5f1942b4374015823bd32e31b31c64 dt=24.736s
+[2026-07-17 22:30:11] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=9ee37c1bce0a41e8bd50821540e80713
+[2026-07-17 22:30:29] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=9ee37c1bce0a41e8bd50821540e80713 dt=17.312s
+[2026-07-17 22:30:49] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8
+[2026-07-17 22:31:06] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8 dt=17.271s
+[2026-07-17 22:31:26] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-07-17 22:31:45] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=18.324s
+[2026-07-17 22:32:05] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=3fe5daf13a5546069766f1c4bfd50fcc
+[2026-07-17 22:32:37] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=3fe5daf13a5546069766f1c4bfd50fcc dt=31.530s
+[2026-07-17 22:32:40] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-07-17 22:33:03] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=23.040s
+[2026-07-17 22:33:25] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=cf5dbac616f94d65845bb25be5078cb8
+[2026-07-17 22:33:43] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=cf5dbac616f94d65845bb25be5078cb8 dt=18.323s
+[2026-07-17 22:34:02] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-07-17 22:34:20] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=18.128s
+[2026-07-17 22:34:42] [bev worker 651] start BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8
+[2026-07-17 22:35:04] [bev worker 651] finish BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8 dt=22.347s
+[2026-07-17 22:35:33] [bev process] worker stopped pid=651 mode=graceful stats(graceful=7,terminate=0,kill=0)
+[2026-07-17 22:35:33] [bev process] worker switched old_pid=651 -> new_pid=717 reason=reset scan=ZMojNkEp431 restart_count=8
+[2026-07-17 22:35:35] [bev worker 717] start BEV build scan=ZMojNkEp431 viewpoint=ba8b23a7aaeb463ba565174f9f44787a
+[2026-07-17 22:36:00] [bev worker 717] finish BEV build scan=ZMojNkEp431 viewpoint=ba8b23a7aaeb463ba565174f9f44787a dt=24.086s
+[2026-07-17 22:36:16] [bev worker 717] start BEV build scan=ZMojNkEp431 viewpoint=227efb9ab28046fcb020e116f7364b4a
+[2026-07-17 22:36:34] [bev worker 717] finish BEV build scan=ZMojNkEp431 viewpoint=227efb9ab28046fcb020e116f7364b4a dt=17.720s
+[2026-07-17 22:36:51] [bev worker 717] start BEV build scan=ZMojNkEp431 viewpoint=c5c6bc7725e44fbf9cdb474aef50a74b
+[2026-07-17 22:37:08] [bev worker 717] finish BEV build scan=ZMojNkEp431 viewpoint=c5c6bc7725e44fbf9cdb474aef50a74b dt=17.381s
+[2026-07-17 22:37:27] [bev worker 717] start BEV build scan=ZMojNkEp431 viewpoint=acf55e0267824aef8e8b9ad200e36091
+[2026-07-17 22:37:44] [bev worker 717] finish BEV build scan=ZMojNkEp431 viewpoint=acf55e0267824aef8e8b9ad200e36091 dt=16.982s
+[2026-07-17 22:37:59] [bev worker 717] start BEV build scan=ZMojNkEp431 viewpoint=2fd10d37b87f46d6b4e0501aac549c6f
+[2026-07-17 22:38:16] [bev worker 717] finish BEV build scan=ZMojNkEp431 viewpoint=2fd10d37b87f46d6b4e0501aac549c6f dt=17.353s
+[2026-07-17 22:38:38] [bev worker 717] start BEV build scan=ZMojNkEp431 viewpoint=7b99836e3e0045f2b5cc212e8181914b
+[2026-07-17 22:38:55] [bev worker 717] finish BEV build scan=ZMojNkEp431 viewpoint=7b99836e3e0045f2b5cc212e8181914b dt=16.799s
+[2026-07-20 17:12:31] [bev process] model_server started pid=875; waiting for models to load …
+[2026-07-20 17:12:33] [model_server pid=875] starting … loading CLIP + LSeg models
+[2026-07-20 17:12:33] [model_server pid=875] loading CLIP model for text features …
+[2026-07-20 17:12:37] [model_server pid=875] loading LSeg model …
+[2026-07-20 17:13:07] [model_server pid=875] models loaded dt=34.239s labels=40 clip_feat_dim=512
+[2026-07-20 17:13:07] [bev process] model_server ready (pid=875)
+[2026-07-20 17:13:15] [bev process] worker switched old_pid=None -> new_pid=998 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-20 17:13:17] [bev worker 998] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-20 17:13:46] [bev worker 998] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=29.213s
+[2026-07-20 17:14:05] [bev worker 998] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-20 17:14:24] [bev worker 998] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=19.310s
+[2026-07-20 17:14:41] [bev worker 998] start BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a
+[2026-07-20 17:14:59] [bev worker 998] finish BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a dt=17.497s
+[2026-07-20 17:15:15] [bev worker 998] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-20 17:15:37] [bev worker 998] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=22.809s
+[2026-07-20 17:15:57] [bev worker 998] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-20 17:16:21] [bev worker 998] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=23.542s
+[2026-07-20 17:16:36] [bev worker 998] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-20 17:16:53] [bev worker 998] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.406s
+[2026-07-20 17:17:10] [bev process] worker stopped pid=998 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-20 17:17:10] [bev process] worker switched old_pid=998 -> new_pid=1066 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-20 17:17:12] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-20 17:17:42] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=30.013s
+[2026-07-20 17:17:57] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-20 17:18:22] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=24.188s
+[2026-07-20 17:18:42] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-20 17:19:00] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.340s
+[2026-07-20 17:19:20] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-20 17:19:38] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.458s
+[2026-07-20 17:19:59] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-20 17:20:18] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=18.870s
+[2026-07-20 17:20:37] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-20 17:20:57] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.681s
+[2026-07-20 17:21:18] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-20 17:22:04] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=45.850s
+[2026-07-20 17:22:19] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-20 17:23:01] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=42.118s
+[2026-07-20 17:23:22] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-20 17:24:04] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=42.282s
+[2026-07-20 17:24:19] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-20 17:24:38] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=19.748s
+[2026-07-20 17:24:53] [bev worker 1066] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-07-20 17:25:13] [bev worker 1066] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=19.935s
+[2026-07-20 17:25:42] [bev process] worker stopped pid=1066 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-20 17:25:42] [bev process] worker switched old_pid=1066 -> new_pid=1132 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-20 17:25:44] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-20 17:26:11] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10 dt=27.480s
+[2026-07-20 17:26:26] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e
+[2026-07-20 17:26:58] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e dt=31.426s
+[2026-07-20 17:27:17] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0
+[2026-07-20 17:27:37] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0 dt=19.950s
+[2026-07-20 17:27:55] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704
+[2026-07-20 17:28:14] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704 dt=19.539s
+[2026-07-20 17:28:35] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef
+[2026-07-20 17:28:53] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef dt=18.268s
+[2026-07-20 17:29:15] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=1e951fdbfd9d45bbaf935da945f5425c
+[2026-07-20 17:29:38] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=1e951fdbfd9d45bbaf935da945f5425c dt=22.777s
+[2026-07-20 17:30:00] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=67ff5dc94eeb4675ba3a2074ee5ca22c
+[2026-07-20 17:30:30] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=67ff5dc94eeb4675ba3a2074ee5ca22c dt=30.158s
+[2026-07-20 17:30:51] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=814d9aba371640e5a70bcb7833bfe08f
+[2026-07-20 17:31:09] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=814d9aba371640e5a70bcb7833bfe08f dt=17.935s
+[2026-07-20 17:31:30] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=491b9b2d5e63400f9b448e5603dd05ae
+[2026-07-20 17:31:57] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=491b9b2d5e63400f9b448e5603dd05ae dt=26.456s
+[2026-07-20 17:32:18] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=0fd8c430bdb34aedb5c11b56ceb13b63
+[2026-07-20 17:32:35] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=0fd8c430bdb34aedb5c11b56ceb13b63 dt=16.588s
+[2026-07-20 17:32:55] [bev worker 1132] start BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a
+[2026-07-20 17:33:14] [bev worker 1132] finish BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a dt=18.901s
+[2026-07-20 18:00:39] [bev process] model_server started pid=1266; waiting for models to load …
+[2026-07-20 18:00:41] [model_server pid=1266] starting … loading CLIP + LSeg models
+[2026-07-20 18:00:41] [model_server pid=1266] loading CLIP model for text features …
+[2026-07-20 18:00:42] [model_server pid=1266] loading LSeg model …
+[2026-07-20 18:00:47] [model_server pid=1266] models loaded dt=6.460s labels=40 clip_feat_dim=512
+[2026-07-20 18:00:47] [bev process] model_server ready (pid=1266)
+[2026-07-20 18:00:54] [bev process] worker switched old_pid=None -> new_pid=1388 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-20 18:00:56] [bev worker 1388] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-20 18:01:23] [bev worker 1388] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=27.690s
+[2026-07-20 18:01:42] [bev worker 1388] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-20 18:01:59] [bev worker 1388] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.144s
+[2026-07-20 18:02:15] [bev worker 1388] start BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a
+[2026-07-20 18:02:32] [bev worker 1388] finish BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a dt=16.761s
+[2026-07-20 18:02:48] [bev worker 1388] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-20 18:03:20] [bev worker 1388] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=32.291s
+[2026-07-20 18:03:40] [bev worker 1388] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-20 18:04:02] [bev worker 1388] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=22.143s
+[2026-07-20 18:04:17] [bev worker 1388] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-20 18:04:44] [bev worker 1388] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=27.463s
+[2026-07-20 18:05:01] [bev process] worker stopped pid=1388 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-20 18:05:01] [bev process] worker switched old_pid=1388 -> new_pid=1455 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-20 18:05:03] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-20 18:05:26] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=22.472s
+[2026-07-20 18:05:40] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-20 18:05:58] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.065s
+[2026-07-20 18:06:17] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-20 18:06:35] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.129s
+[2026-07-20 18:06:52] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-20 18:07:32] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=39.860s
+[2026-07-20 18:07:52] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-20 18:08:12] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.528s
+[2026-07-20 18:08:32] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-20 18:08:51] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=18.882s
+[2026-07-20 18:09:11] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-20 18:09:30] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.719s
+[2026-07-20 18:09:51] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-20 18:10:12] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=21.035s
+[2026-07-20 18:10:28] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-20 18:10:47] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.518s
+[2026-07-20 18:11:07] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-20 18:11:27] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.531s
+[2026-07-20 18:11:42] [bev worker 1455] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-20 18:12:02] [bev worker 1455] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=19.886s
+[2026-07-20 18:12:31] [bev process] worker stopped pid=1455 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-20 18:12:31] [bev process] worker switched old_pid=1455 -> new_pid=1521 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-20 18:12:33] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-20 18:13:03] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10 dt=30.656s
+[2026-07-20 18:13:18] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e
+[2026-07-20 18:13:54] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e dt=36.285s
+[2026-07-20 18:14:13] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0
+[2026-07-20 18:14:44] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0 dt=31.093s
+[2026-07-20 18:15:02] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704
+[2026-07-20 18:15:21] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704 dt=19.284s
+[2026-07-20 18:15:42] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef
+[2026-07-20 18:16:00] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef dt=18.008s
+[2026-07-20 18:16:22] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=1e951fdbfd9d45bbaf935da945f5425c
+[2026-07-20 18:16:40] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=1e951fdbfd9d45bbaf935da945f5425c dt=18.270s
+[2026-07-20 18:17:02] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=67ff5dc94eeb4675ba3a2074ee5ca22c
+[2026-07-20 18:17:20] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=67ff5dc94eeb4675ba3a2074ee5ca22c dt=18.315s
+[2026-07-20 18:17:41] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=814d9aba371640e5a70bcb7833bfe08f
+[2026-07-20 18:17:58] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=814d9aba371640e5a70bcb7833bfe08f dt=17.953s
+[2026-07-20 18:18:20] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=491b9b2d5e63400f9b448e5603dd05ae
+[2026-07-20 18:18:36] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=491b9b2d5e63400f9b448e5603dd05ae dt=16.797s
+[2026-07-20 18:18:58] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=0fd8c430bdb34aedb5c11b56ceb13b63
+[2026-07-20 18:19:15] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=0fd8c430bdb34aedb5c11b56ceb13b63 dt=16.620s
+[2026-07-20 18:19:35] [bev worker 1521] start BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a
+[2026-07-20 18:19:54] [bev worker 1521] finish BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a dt=18.760s
+[2026-07-20 18:20:45] [bev process] worker stopped pid=1521 mode=graceful stats(graceful=3,terminate=0,kill=0)
+[2026-07-20 18:20:45] [bev process] worker switched old_pid=1521 -> new_pid=1587 reason=reset scan=p5wJjkQkbXX restart_count=4
+[2026-07-20 18:20:48] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def
+[2026-07-20 18:21:21] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def dt=33.182s
+[2026-07-20 18:21:35] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb
+[2026-07-20 18:21:53] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb dt=18.438s
+[2026-07-20 18:22:11] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617
+[2026-07-20 18:22:29] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617 dt=17.370s
+[2026-07-20 18:22:48] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c
+[2026-07-20 18:23:23] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c dt=34.953s
+[2026-07-20 18:23:43] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963
+[2026-07-20 18:24:22] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963 dt=39.222s
+[2026-07-20 18:24:42] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12
+[2026-07-20 18:25:01] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12 dt=18.905s
+[2026-07-20 18:25:22] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13
+[2026-07-20 18:25:47] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13 dt=25.351s
+[2026-07-20 18:26:07] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48
+[2026-07-20 18:26:27] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48 dt=20.195s
+[2026-07-20 18:26:47] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-20 18:27:09] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=21.740s
+[2026-07-20 18:27:23] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323
+[2026-07-20 18:27:49] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323 dt=25.566s
+[2026-07-20 18:27:53] [bev worker 1587] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-20 18:28:15] [bev worker 1587] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=21.769s
+[2026-07-21 17:11:49] [bev process] model_server started pid=1745; waiting for models to load …
+[2026-07-21 17:11:51] [model_server pid=1745] starting … loading CLIP + LSeg models
+[2026-07-21 17:11:51] [model_server pid=1745] loading CLIP model for text features …
+[2026-07-21 17:11:53] [model_server pid=1745] loading LSeg model …
+[2026-07-21 17:11:57] [model_server pid=1745] models loaded dt=6.549s labels=40 clip_feat_dim=512
+[2026-07-21 17:11:57] [bev process] model_server ready (pid=1745)
+[2026-07-21 17:12:04] [bev process] worker switched old_pid=None -> new_pid=1867 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-21 17:12:06] [bev worker 1867] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-21 17:12:28] [bev worker 1867] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=22.705s
+[2026-07-21 17:12:47] [bev worker 1867] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-21 17:13:04] [bev worker 1867] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.387s
+[2026-07-21 17:13:20] [bev worker 1867] start BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a
+[2026-07-21 17:13:37] [bev worker 1867] finish BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a dt=16.912s
+[2026-07-21 17:13:53] [bev worker 1867] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-21 17:14:10] [bev worker 1867] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=17.391s
+[2026-07-21 17:14:29] [bev worker 1867] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-21 17:14:47] [bev worker 1867] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=17.803s
+[2026-07-21 17:15:01] [bev worker 1867] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-21 17:21:16] [bev process] model_server started pid=2004; waiting for models to load …
+[2026-07-21 17:21:18] [model_server pid=2004] starting … loading CLIP + LSeg models
+[2026-07-21 17:21:18] [model_server pid=2004] loading CLIP model for text features …
+[2026-07-21 17:21:19] [model_server pid=2004] loading LSeg model …
+[2026-07-21 17:21:24] [model_server pid=2004] models loaded dt=6.451s labels=40 clip_feat_dim=512
+[2026-07-21 17:21:24] [bev process] model_server ready (pid=2004)
+[2026-07-21 17:21:30] [bev process] worker switched old_pid=None -> new_pid=2126 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-21 17:21:32] [bev worker 2126] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-07-21 17:21:54] [bev worker 2126] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=22.591s
+[2026-07-21 17:22:10] [bev worker 2126] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-21 17:22:28] [bev worker 2126] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.496s
+[2026-07-21 17:22:42] [bev worker 2126] start BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a
+[2026-07-21 17:22:59] [bev worker 2126] finish BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a dt=16.909s
+[2026-07-21 17:23:13] [bev worker 2126] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-21 17:23:51] [bev worker 2126] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=37.215s
+[2026-07-21 17:24:08] [bev worker 2126] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-21 17:24:40] [bev worker 2126] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=32.140s
+[2026-07-21 17:24:53] [bev worker 2126] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-07-21 17:25:25] [bev worker 2126] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=32.475s
+[2026-07-21 17:25:42] [bev process] worker stopped pid=2126 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-21 17:25:42] [bev process] worker switched old_pid=2126 -> new_pid=2193 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-21 17:25:44] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-07-21 17:26:07] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=22.811s
+[2026-07-21 17:26:18] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-21 17:26:36] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.368s
+[2026-07-21 17:26:53] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-21 17:27:17] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=23.685s
+[2026-07-21 17:27:33] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-21 17:27:51] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.633s
+[2026-07-21 17:28:11] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-21 17:28:48] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=36.893s
+[2026-07-21 17:29:07] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-21 17:29:37] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=30.172s
+[2026-07-21 17:29:56] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-21 17:30:38] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=42.380s
+[2026-07-21 17:30:57] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-21 17:31:29] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=31.377s
+[2026-07-21 17:31:44] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-21 17:32:03] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.660s
+[2026-07-21 17:32:23] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-21 17:32:42] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.769s
+[2026-07-21 17:32:57] [bev worker 2193] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-21 17:33:17] [bev worker 2193] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=20.115s
+[2026-07-21 17:33:46] [bev process] worker stopped pid=2193 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-21 17:33:46] [bev process] worker switched old_pid=2193 -> new_pid=2259 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-21 17:33:48] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-07-21 17:34:13] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10 dt=25.269s
+[2026-07-21 17:34:25] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e
+[2026-07-21 17:34:45] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e dt=19.651s
+[2026-07-21 17:35:01] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0
+[2026-07-21 17:35:27] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0 dt=25.946s
+[2026-07-21 17:35:43] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704
+[2026-07-21 17:36:08] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704 dt=24.731s
+[2026-07-21 17:36:28] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef
+[2026-07-21 17:36:56] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef dt=28.422s
+[2026-07-21 17:37:15] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=1e951fdbfd9d45bbaf935da945f5425c
+[2026-07-21 17:37:45] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=1e951fdbfd9d45bbaf935da945f5425c dt=29.971s
+[2026-07-21 17:38:05] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=67ff5dc94eeb4675ba3a2074ee5ca22c
+[2026-07-21 17:38:40] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=67ff5dc94eeb4675ba3a2074ee5ca22c dt=35.001s
+[2026-07-21 17:38:59] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=814d9aba371640e5a70bcb7833bfe08f
+[2026-07-21 17:39:24] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=814d9aba371640e5a70bcb7833bfe08f dt=24.477s
+[2026-07-21 17:39:43] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=491b9b2d5e63400f9b448e5603dd05ae
+[2026-07-21 17:40:09] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=491b9b2d5e63400f9b448e5603dd05ae dt=26.597s
+[2026-07-21 17:40:29] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=0fd8c430bdb34aedb5c11b56ceb13b63
+[2026-07-21 17:40:51] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=0fd8c430bdb34aedb5c11b56ceb13b63 dt=21.590s
+[2026-07-21 17:41:10] [bev worker 2259] start BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a
+[2026-07-21 17:41:34] [bev worker 2259] finish BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a dt=24.082s
+[2026-07-21 17:42:24] [bev process] worker stopped pid=2259 mode=graceful stats(graceful=3,terminate=0,kill=0)
+[2026-07-21 17:42:24] [bev process] worker switched old_pid=2259 -> new_pid=2325 reason=reset scan=p5wJjkQkbXX restart_count=4
+[2026-07-21 17:42:26] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def
+[2026-07-21 17:43:10] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def dt=43.856s
+[2026-07-21 17:43:21] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb
+[2026-07-21 17:43:45] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb dt=23.939s
+[2026-07-21 17:44:01] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617
+[2026-07-21 17:44:33] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617 dt=32.610s
+[2026-07-21 17:44:50] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c
+[2026-07-21 17:45:25] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c dt=34.838s
+[2026-07-21 17:45:44] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963
+[2026-07-21 17:46:02] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963 dt=18.321s
+[2026-07-21 17:46:21] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12
+[2026-07-21 17:46:40] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12 dt=19.003s
+[2026-07-21 17:46:59] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13
+[2026-07-21 17:47:19] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13 dt=19.932s
+[2026-07-21 17:47:37] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48
+[2026-07-21 17:48:16] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48 dt=39.095s
+[2026-07-21 17:48:35] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-21 17:49:15] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=40.248s
+[2026-07-21 17:49:29] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323
+[2026-07-21 17:49:49] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323 dt=20.365s
+[2026-07-21 17:49:53] [bev worker 2325] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-07-21 17:50:15] [bev worker 2325] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=21.853s
+[2026-07-21 17:50:44] [bev process] worker stopped pid=2325 mode=graceful stats(graceful=4,terminate=0,kill=0)
+[2026-07-21 17:50:44] [bev process] worker switched old_pid=2325 -> new_pid=2391 reason=reset scan=SN83YJsR3w2 restart_count=5
+[2026-07-21 17:50:46] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf
+[2026-07-21 17:51:18] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf dt=32.197s
+[2026-07-21 17:51:30] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=35298dd1214345239f966099a1ddac3f
+[2026-07-21 17:51:47] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=35298dd1214345239f966099a1ddac3f dt=16.739s
+[2026-07-21 17:52:04] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=d2cf7bc1308c4d1b86973b4ad1336404
+[2026-07-21 17:52:31] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=d2cf7bc1308c4d1b86973b4ad1336404 dt=27.767s
+[2026-07-21 17:52:47] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=7e8ac490e6f84193a96102e057d2c204
+[2026-07-21 17:53:19] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=7e8ac490e6f84193a96102e057d2c204 dt=32.458s
+[2026-07-21 17:53:34] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=913aefa5733c425eb79de9f5e225cd0e
+[2026-07-21 17:54:09] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=913aefa5733c425eb79de9f5e225cd0e dt=34.729s
+[2026-07-21 17:54:24] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=f745a3bf638a40dd85e29ce98d8c2aba
+[2026-07-21 17:54:45] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=f745a3bf638a40dd85e29ce98d8c2aba dt=21.507s
+[2026-07-21 17:55:00] [bev worker 2391] start BEV build scan=SN83YJsR3w2 viewpoint=81a50ecde0ab42cd81e0cf23a2529675
+[2026-07-21 17:55:23] [bev worker 2391] finish BEV build scan=SN83YJsR3w2 viewpoint=81a50ecde0ab42cd81e0cf23a2529675 dt=22.797s
+[2026-07-21 17:55:46] [bev process] worker stopped pid=2391 mode=graceful stats(graceful=5,terminate=0,kill=0)
+[2026-07-21 17:55:46] [bev process] worker switched old_pid=2391 -> new_pid=2457 reason=reset scan=XcA2TqTSSAj restart_count=6
+[2026-07-21 17:55:48] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=eb7c8095d2514ab7a84732fa41ed3594
+[2026-07-21 17:56:18] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=eb7c8095d2514ab7a84732fa41ed3594 dt=30.524s
+[2026-07-21 17:56:29] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=bf22e389bd754181924923b4f5e0fe02
+[2026-07-21 17:56:49] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=bf22e389bd754181924923b4f5e0fe02 dt=19.423s
+[2026-07-21 17:57:05] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=c43ed5913b6d45e5aa3b782bfa860805
+[2026-07-21 17:57:24] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=c43ed5913b6d45e5aa3b782bfa860805 dt=18.645s
+[2026-07-21 17:57:36] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=ec0421cc61c64f6f8692d327d6838fd5
+[2026-07-21 17:58:02] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=ec0421cc61c64f6f8692d327d6838fd5 dt=26.798s
+[2026-07-21 17:58:18] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=02253cded39e4f26a34c483d645ebcb7
+[2026-07-21 17:58:52] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=02253cded39e4f26a34c483d645ebcb7 dt=34.256s
+[2026-07-21 17:59:08] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=fa065de5315940abb64684e68f6d686a
+[2026-07-21 17:59:33] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=fa065de5315940abb64684e68f6d686a dt=25.056s
+[2026-07-21 17:59:48] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=aa56e0f95db14b4481b0188dfd5b324f
+[2026-07-21 18:00:24] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=aa56e0f95db14b4481b0188dfd5b324f dt=36.466s
+[2026-07-21 18:00:40] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=b6985ed68dd8405e969fcbbcd6dfcc42
+[2026-07-21 18:01:17] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=b6985ed68dd8405e969fcbbcd6dfcc42 dt=37.032s
+[2026-07-21 18:01:32] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=213a5fa207dc491894df2f4405c40838
+[2026-07-21 18:01:50] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=213a5fa207dc491894df2f4405c40838 dt=17.790s
+[2026-07-21 18:02:05] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=1e2d321dc574469288c88e5ae2afb370
+[2026-07-21 18:02:26] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=1e2d321dc574469288c88e5ae2afb370 dt=20.410s
+[2026-07-21 18:02:41] [bev worker 2457] start BEV build scan=XcA2TqTSSAj viewpoint=8fcf0b6f46b8465ab762e45a0060f6f0
+[2026-07-21 18:02:58] [bev worker 2457] finish BEV build scan=XcA2TqTSSAj viewpoint=8fcf0b6f46b8465ab762e45a0060f6f0 dt=16.804s
+[2026-07-21 18:03:37] [bev process] worker stopped pid=2457 mode=graceful stats(graceful=6,terminate=0,kill=0)
+[2026-07-21 18:03:37] [bev process] worker switched old_pid=2457 -> new_pid=2523 reason=reset scan=7y3sRwLe3Va restart_count=7
+[2026-07-21 18:03:39] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=e29484c59af4429981a6a5d5afe4d5a0
+[2026-07-21 18:04:04] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=e29484c59af4429981a6a5d5afe4d5a0 dt=25.368s
+[2026-07-21 18:04:16] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=d8cae4c7073346e392d3996254bf741c
+[2026-07-21 18:04:36] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=d8cae4c7073346e392d3996254bf741c dt=20.205s
+[2026-07-21 18:04:53] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=af5f1942b4374015823bd32e31b31c64
+[2026-07-21 18:05:12] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=af5f1942b4374015823bd32e31b31c64 dt=19.698s
+[2026-07-21 18:05:29] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=9ee37c1bce0a41e8bd50821540e80713
+[2026-07-21 18:05:47] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=9ee37c1bce0a41e8bd50821540e80713 dt=17.729s
+[2026-07-21 18:06:06] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8
+[2026-07-21 18:06:24] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8 dt=17.587s
+[2026-07-21 18:06:43] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-07-21 18:07:01] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=18.614s
+[2026-07-21 18:07:20] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=3fe5daf13a5546069766f1c4bfd50fcc
+[2026-07-21 18:07:38] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=3fe5daf13a5546069766f1c4bfd50fcc dt=17.538s
+[2026-07-21 18:07:42] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-07-21 18:08:07] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=24.755s
+[2026-07-21 18:08:25] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=cf5dbac616f94d65845bb25be5078cb8
+[2026-07-21 18:08:44] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=cf5dbac616f94d65845bb25be5078cb8 dt=18.641s
+[2026-07-21 18:09:03] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-07-21 18:09:27] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=23.788s
+[2026-07-21 18:09:45] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8
+[2026-07-21 18:10:03] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8 dt=17.608s
+[2026-07-21 18:10:29] [bev worker 2523] start BEV build scan=7y3sRwLe3Va viewpoint=fd4752f551d04e22be492adea0d9fb04
+[2026-07-21 18:10:51] [bev worker 2523] finish BEV build scan=7y3sRwLe3Va viewpoint=fd4752f551d04e22be492adea0d9fb04 dt=21.547s
+[2026-07-21 18:11:24] [bev process] worker stopped pid=2523 mode=graceful stats(graceful=7,terminate=0,kill=0)
+[2026-07-21 18:11:24] [bev process] worker switched old_pid=2523 -> new_pid=2589 reason=reset scan=ZMojNkEp431 restart_count=8
+[2026-07-21 18:11:26] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=ba8b23a7aaeb463ba565174f9f44787a
+[2026-07-21 18:11:49] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=ba8b23a7aaeb463ba565174f9f44787a dt=22.714s
+[2026-07-21 18:12:01] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=227efb9ab28046fcb020e116f7364b4a
+[2026-07-21 18:12:19] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=227efb9ab28046fcb020e116f7364b4a dt=17.981s
+[2026-07-21 18:12:35] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=c5c6bc7725e44fbf9cdb474aef50a74b
+[2026-07-21 18:12:53] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=c5c6bc7725e44fbf9cdb474aef50a74b dt=17.562s
+[2026-07-21 18:13:10] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=acf55e0267824aef8e8b9ad200e36091
+[2026-07-21 18:13:27] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=acf55e0267824aef8e8b9ad200e36091 dt=17.136s
+[2026-07-21 18:13:41] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=2fd10d37b87f46d6b4e0501aac549c6f
+[2026-07-21 18:13:59] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=2fd10d37b87f46d6b4e0501aac549c6f dt=17.687s
+[2026-07-21 18:14:19] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=7b99836e3e0045f2b5cc212e8181914b
+[2026-07-21 18:14:36] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=7b99836e3e0045f2b5cc212e8181914b dt=17.134s
+[2026-07-21 18:14:54] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=2f4d90acd4024c269fb0efe49a8ac540
+[2026-07-21 18:15:12] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=2f4d90acd4024c269fb0efe49a8ac540 dt=17.055s
+[2026-07-21 18:15:31] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=4967e9252dec465db94b791223a67a2e
+[2026-07-21 18:15:49] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=4967e9252dec465db94b791223a67a2e dt=17.448s
+[2026-07-21 18:16:08] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=3d409564a59c44ea84fd79ddc8aa4fc9
+[2026-07-21 18:16:25] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=3d409564a59c44ea84fd79ddc8aa4fc9 dt=16.834s
+[2026-07-21 18:16:45] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=44e14ff2fcd34fa9a93265e53dc53b52
+[2026-07-21 18:17:13] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=44e14ff2fcd34fa9a93265e53dc53b52 dt=28.125s
+[2026-07-21 18:17:33] [bev worker 2589] start BEV build scan=ZMojNkEp431 viewpoint=5c06622119ed4826a572db59737bbcde
+[2026-07-21 18:17:51] [bev worker 2589] finish BEV build scan=ZMojNkEp431 viewpoint=5c06622119ed4826a572db59737bbcde dt=18.600s
+[2026-07-21 18:18:21] [bev process] worker stopped pid=2589 mode=graceful stats(graceful=8,terminate=0,kill=0)
+[2026-07-21 18:18:21] [bev process] worker switched old_pid=2589 -> new_pid=2655 reason=reset scan=Uxmj2M2itWa restart_count=9
+[2026-07-21 18:18:23] [bev worker 2655] start BEV build scan=Uxmj2M2itWa viewpoint=e5d22d5625714f54add784abac16c69f
+[2026-07-21 18:18:40] [bev worker 2655] finish BEV build scan=Uxmj2M2itWa viewpoint=e5d22d5625714f54add784abac16c69f dt=16.501s
+[2026-07-21 18:18:51] [bev worker 2655] start BEV build scan=Uxmj2M2itWa viewpoint=13c191f506114c73b70830b89e195aa6
+[2026-07-21 18:19:09] [bev worker 2655] finish BEV build scan=Uxmj2M2itWa viewpoint=13c191f506114c73b70830b89e195aa6 dt=18.060s
+[2026-07-21 18:19:26] [bev worker 2655] start BEV build scan=Uxmj2M2itWa viewpoint=d52aaea9fc6e4d5fbecd0220eb9da436
+[2026-07-21 18:19:49] [bev worker 2655] finish BEV build scan=Uxmj2M2itWa viewpoint=d52aaea9fc6e4d5fbecd0220eb9da436 dt=22.978s
+[2026-07-21 18:20:06] [bev worker 2655] start BEV build scan=Uxmj2M2itWa viewpoint=4890b24fbb59414892ca854895896126
+[2026-07-21 18:20:34] [bev worker 2655] finish BEV build scan=Uxmj2M2itWa viewpoint=4890b24fbb59414892ca854895896126 dt=28.644s
+[2026-07-21 18:20:54] [bev worker 2655] start BEV build scan=Uxmj2M2itWa viewpoint=37cb64e0cddc4f20b309abc4ff5344c2
+[2026-07-21 18:21:31] [bev worker 2655] finish BEV build scan=Uxmj2M2itWa viewpoint=37cb64e0cddc4f20b309abc4ff5344c2 dt=36.846s
+[2026-07-21 18:21:50] [bev worker 2655] start BEV build scan=Uxmj2M2itWa viewpoint=3ba76deab6be444c8b21652763d82795
+[2026-07-21 18:22:07] [bev worker 2655] finish BEV build scan=Uxmj2M2itWa viewpoint=3ba76deab6be444c8b21652763d82795 dt=16.676s
+[2026-07-21 18:22:29] [bev process] worker stopped pid=2655 mode=graceful stats(graceful=9,terminate=0,kill=0)
+[2026-07-21 18:22:29] [bev process] worker switched old_pid=2655 -> new_pid=2721 reason=reset scan=EDJbREhghzL restart_count=10
+[2026-07-21 18:22:31] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=553465b804fb4fc29bf530f71dfdf1d5
+[2026-07-21 18:23:02] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=553465b804fb4fc29bf530f71dfdf1d5 dt=31.036s
+[2026-07-21 18:23:15] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=df428e69750340cdb9612ca81d9b098b
+[2026-07-21 18:23:34] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=df428e69750340cdb9612ca81d9b098b dt=19.247s
+[2026-07-21 18:23:51] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=4069c437611e44c69edf8175de76b201
+[2026-07-21 18:24:10] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=4069c437611e44c69edf8175de76b201 dt=18.945s
+[2026-07-21 18:24:26] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=a9d71330f8144d979dcb2af0771cb0b5
+[2026-07-21 18:24:56] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=a9d71330f8144d979dcb2af0771cb0b5 dt=29.616s
+[2026-07-21 18:25:15] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=e3b5cbc0554e476a8f17d4797b993d7a
+[2026-07-21 18:25:33] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=e3b5cbc0554e476a8f17d4797b993d7a dt=18.146s
+[2026-07-21 18:25:53] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=a16ed3b23f3745f28a7a039387a24575
+[2026-07-21 18:26:12] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=a16ed3b23f3745f28a7a039387a24575 dt=18.512s
+[2026-07-21 18:26:27] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa
+[2026-07-21 18:26:46] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa dt=19.651s
+[2026-07-21 18:27:01] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a
+[2026-07-21 18:27:18] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a dt=17.778s
+[2026-07-21 18:27:33] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=1084a51245eb45f59e6493068d74b7ea
+[2026-07-21 18:27:52] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=1084a51245eb45f59e6493068d74b7ea dt=19.187s
+[2026-07-21 18:27:56] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a
+[2026-07-21 18:28:34] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a dt=38.011s
+[2026-07-21 18:28:49] [bev worker 2721] start BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa
+[2026-07-21 18:29:26] [bev worker 2721] finish BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa dt=37.089s
+[2026-07-21 18:29:52] [bev process] worker stopped pid=2721 mode=graceful stats(graceful=10,terminate=0,kill=0)
+[2026-07-21 18:29:52] [bev process] worker switched old_pid=2721 -> new_pid=2787 reason=reset scan=D7N2EKCX4Sj restart_count=11
+[2026-07-21 18:29:54] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=e1166572e82f43d5857232295dcf4879
+[2026-07-21 18:30:25] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=e1166572e82f43d5857232295dcf4879 dt=30.886s
+[2026-07-21 18:30:37] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=d4b19206bd8b4771b11a4dbda6cb9bff
+[2026-07-21 18:31:03] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=d4b19206bd8b4771b11a4dbda6cb9bff dt=25.961s
+[2026-07-21 18:31:19] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=53549a4cd8964df9a41acdf7a0257aff
+[2026-07-21 18:31:36] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=53549a4cd8964df9a41acdf7a0257aff dt=16.644s
+[2026-07-21 18:31:52] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=778b27da719d47b494cce8c6896a9bdf
+[2026-07-21 18:32:11] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=778b27da719d47b494cce8c6896a9bdf dt=19.235s
+[2026-07-21 18:32:26] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=94446ee1941346fa9d9ed2e8251dd5c0
+[2026-07-21 18:33:06] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=94446ee1941346fa9d9ed2e8251dd5c0 dt=40.512s
+[2026-07-21 18:33:21] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=abdb1b4d143e491f8a9350b2fd869122
+[2026-07-21 18:33:43] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=abdb1b4d143e491f8a9350b2fd869122 dt=22.641s
+[2026-07-21 18:34:03] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=cf4babf2d24a44418351494fa1cb5ebf
+[2026-07-21 18:34:21] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=cf4babf2d24a44418351494fa1cb5ebf dt=18.616s
+[2026-07-21 18:34:58] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=9bbc936210084a00ad05856e0f5a3364
+[2026-07-21 18:35:16] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=9bbc936210084a00ad05856e0f5a3364 dt=18.295s
+[2026-07-21 18:35:36] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=ba692fd9ec524282935a608d975374e3
+[2026-07-21 18:35:54] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=ba692fd9ec524282935a608d975374e3 dt=18.122s
+[2026-07-21 18:36:14] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=5afc855988064b999acb5b3b180e8348
+[2026-07-21 18:36:31] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=5afc855988064b999acb5b3b180e8348 dt=17.776s
+[2026-07-21 18:36:51] [bev worker 2787] start BEV build scan=D7N2EKCX4Sj viewpoint=e83d56b54fc3442aac2906f5241043d6
+[2026-07-21 18:37:09] [bev worker 2787] finish BEV build scan=D7N2EKCX4Sj viewpoint=e83d56b54fc3442aac2906f5241043d6 dt=18.427s
+[2026-07-21 18:37:37] [bev process] worker stopped pid=2787 mode=graceful stats(graceful=11,terminate=0,kill=0)
+[2026-07-21 18:37:37] [bev process] worker switched old_pid=2787 -> new_pid=2853 reason=reset scan=2n8kARJN3HM restart_count=12
+[2026-07-21 18:37:39] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=3611ca6eb11f4a32a7cd3c073862860d
+[2026-07-21 18:38:16] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=3611ca6eb11f4a32a7cd3c073862860d dt=36.967s
+[2026-07-21 18:38:41] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=1a3ed2a67f5f4a0c933c480f182829a9
+[2026-07-21 18:39:10] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=1a3ed2a67f5f4a0c933c480f182829a9 dt=28.633s
+[2026-07-21 18:39:28] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=ddd527993ada4e1c8d0c62fdfb33f8db
+[2026-07-21 18:39:51] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=ddd527993ada4e1c8d0c62fdfb33f8db dt=23.111s
+[2026-07-21 18:40:05] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=5126def859d74b3684fc0c4375ac49d6
+[2026-07-21 18:40:22] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=5126def859d74b3684fc0c4375ac49d6 dt=17.508s
+[2026-07-21 18:40:38] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=43b70941e6e24925b9097684ddf31c84
+[2026-07-21 18:41:01] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=43b70941e6e24925b9097684ddf31c84 dt=22.633s
+[2026-07-21 18:41:16] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=1f8182156ccd41f39c552ac05ab24877
+[2026-07-21 18:41:39] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=1f8182156ccd41f39c552ac05ab24877 dt=22.543s
+[2026-07-21 18:41:54] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=a92ada1b9db2420ca7e1b55d372f8ffa
+[2026-07-21 18:42:18] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=a92ada1b9db2420ca7e1b55d372f8ffa dt=23.433s
+[2026-07-21 18:42:34] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=9c36a2928f3d436181736d628dd0a694
+[2026-07-21 18:42:58] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=9c36a2928f3d436181736d628dd0a694 dt=24.037s
+[2026-07-21 18:43:31] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=59163d8ecd3a41038c79bad8d0b51d7e
+[2026-07-21 18:43:50] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=59163d8ecd3a41038c79bad8d0b51d7e dt=18.799s
+[2026-07-21 18:44:05] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=82ee7783a95b4beeb1b8c518107c9ae2
+[2026-07-21 18:44:23] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=82ee7783a95b4beeb1b8c518107c9ae2 dt=17.330s
+[2026-07-21 18:44:39] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=2d21aec2e48b4797ad0367e96fd316f4
+[2026-07-21 18:44:56] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=2d21aec2e48b4797ad0367e96fd316f4 dt=17.218s
+[2026-07-21 18:45:21] [bev worker 2853] start BEV build scan=2n8kARJN3HM viewpoint=397cae1de3b74644804196b838fd3c8a
+[2026-07-21 18:45:38] [bev worker 2853] finish BEV build scan=2n8kARJN3HM viewpoint=397cae1de3b74644804196b838fd3c8a dt=17.117s
+[2026-07-21 18:46:10] [bev process] worker stopped pid=2853 mode=graceful stats(graceful=12,terminate=0,kill=0)
+[2026-07-21 18:46:10] [bev process] worker switched old_pid=2853 -> new_pid=2919 reason=reset scan=HxpKQynjfin restart_count=13
+[2026-07-21 18:46:12] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=8255979462744450aef8a399712c0d7f
+[2026-07-21 18:46:33] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=8255979462744450aef8a399712c0d7f dt=20.346s
+[2026-07-21 18:47:02] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=a42b0b5c27b347b1bac3ed3e145785ba
+[2026-07-21 18:47:19] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=a42b0b5c27b347b1bac3ed3e145785ba dt=17.823s
+[2026-07-21 18:47:36] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=0c0617d40f4040e4a9268eddf91241dd
+[2026-07-21 18:48:00] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=0c0617d40f4040e4a9268eddf91241dd dt=24.630s
+[2026-07-21 18:48:17] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=1dd50bf3662244b68314b8400ebb66b6
+[2026-07-21 18:48:41] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=1dd50bf3662244b68314b8400ebb66b6 dt=23.580s
+[2026-07-21 18:49:00] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=b7016dcb34d747d2b18281748a257f5a
+[2026-07-21 18:49:20] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=b7016dcb34d747d2b18281748a257f5a dt=19.591s
+[2026-07-21 18:49:39] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=087babe565fd471381ae7adbf938f5fc
+[2026-07-21 18:49:58] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=087babe565fd471381ae7adbf938f5fc dt=18.499s
+[2026-07-21 18:50:18] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=0a709d588fcd4ae5badd921366074d7a
+[2026-07-21 18:50:35] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=0a709d588fcd4ae5badd921366074d7a dt=17.814s
+[2026-07-21 18:50:55] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=efe359ee05ea46c587196354c2d1cc96
+[2026-07-21 18:51:18] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=efe359ee05ea46c587196354c2d1cc96 dt=23.045s
+[2026-07-21 18:51:56] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=93a2a75ca72c4f99bd6d86059b298b17
+[2026-07-21 18:52:20] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=93a2a75ca72c4f99bd6d86059b298b17 dt=24.555s
+[2026-07-21 18:52:41] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=8b41e8798d78402f9f36b242972d729b
+[2026-07-21 18:53:06] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=8b41e8798d78402f9f36b242972d729b dt=25.284s
+[2026-07-21 18:53:26] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=45ee2d428b7c42a98afe21f68a8fa298
+[2026-07-21 18:53:47] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=45ee2d428b7c42a98afe21f68a8fa298 dt=20.847s
+[2026-07-21 18:54:16] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=f725778a3e3b43679f3c5d334021107f
+[2026-07-21 18:54:43] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=f725778a3e3b43679f3c5d334021107f dt=26.959s
+[2026-07-21 18:55:07] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=5c3fa398480741ff9d996b26596e647c
+[2026-07-21 18:55:34] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=5c3fa398480741ff9d996b26596e647c dt=26.677s
+[2026-07-21 18:56:02] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=4c6a95e53a7f4f959d32d281d06b086b
+[2026-07-21 18:56:18] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=4c6a95e53a7f4f959d32d281d06b086b dt=15.321s
+[2026-07-21 18:56:47] [bev worker 2919] start BEV build scan=HxpKQynjfin viewpoint=40c3d461ced54be485f5d6144952f2de
+[2026-07-21 18:57:04] [bev worker 2919] finish BEV build scan=HxpKQynjfin viewpoint=40c3d461ced54be485f5d6144952f2de dt=17.280s
+[2026-07-21 18:57:36] [bev process] worker stopped pid=2919 mode=graceful stats(graceful=13,terminate=0,kill=0)
+[2026-07-21 18:57:36] [bev process] worker switched old_pid=2919 -> new_pid=3016 reason=reset scan=ur6pFq6Qu1A restart_count=14
+[2026-07-21 18:57:38] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=4a153b13a3f6424784cb8e5dabbb3a2c
+[2026-07-21 18:58:05] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=4a153b13a3f6424784cb8e5dabbb3a2c dt=26.721s
+[2026-07-21 18:58:17] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=b0a97a5d1cab4ccc98e3930107c9d8bf
+[2026-07-21 18:58:43] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=b0a97a5d1cab4ccc98e3930107c9d8bf dt=25.879s
+[2026-07-21 18:58:55] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=eb6b13622d6a4efcab3e53cabf5e2f01
+[2026-07-21 18:59:33] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=eb6b13622d6a4efcab3e53cabf5e2f01 dt=38.081s
+[2026-07-21 18:59:45] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=28c66f311baf4ffa9cf71e45bf1ca165
+[2026-07-21 19:00:05] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=28c66f311baf4ffa9cf71e45bf1ca165 dt=19.782s
+[2026-07-21 19:00:24] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=67a696124eb54cb9bb570f28df5fb8ab
+[2026-07-21 19:00:42] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=67a696124eb54cb9bb570f28df5fb8ab dt=18.023s
+[2026-07-21 19:01:01] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=c7ed1140e587433d8149e39cd09f88a2
+[2026-07-21 19:01:26] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=c7ed1140e587433d8149e39cd09f88a2 dt=24.261s
+[2026-07-21 19:01:45] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=fdf32301e35049ffa791629b4fe34d5e
+[2026-07-21 19:02:23] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=fdf32301e35049ffa791629b4fe34d5e dt=37.373s
+[2026-07-21 19:02:42] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=cbd3e6decb8147e3a79d6fb9af4585a3
+[2026-07-21 19:03:23] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=cbd3e6decb8147e3a79d6fb9af4585a3 dt=40.630s
+[2026-07-21 19:03:41] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=db4e5d9da16446ceb931d97aef767f28
+[2026-07-21 19:04:07] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=db4e5d9da16446ceb931d97aef767f28 dt=25.887s
+[2026-07-21 19:04:22] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=e5d9e78360d4473f81fc7f0c87765eb1
+[2026-07-21 19:04:41] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=e5d9e78360d4473f81fc7f0c87765eb1 dt=18.892s
+[2026-07-21 19:05:01] [bev worker 3016] start BEV build scan=ur6pFq6Qu1A viewpoint=a4e9fd45c60c4fda89cda4c256bb5a81
+[2026-07-21 19:05:21] [bev worker 3016] finish BEV build scan=ur6pFq6Qu1A viewpoint=a4e9fd45c60c4fda89cda4c256bb5a81 dt=20.170s
+[2026-07-21 19:05:53] [bev process] worker stopped pid=3016 mode=graceful stats(graceful=14,terminate=0,kill=0)
+[2026-07-21 19:05:53] [bev process] worker switched old_pid=3016 -> new_pid=3082 reason=reset scan=29hnd4uzFmX restart_count=15
+[2026-07-21 19:05:56] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=c9030e71fc29447599a5c21d90261ca5
+[2026-07-21 19:06:20] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=c9030e71fc29447599a5c21d90261ca5 dt=24.316s
+[2026-07-21 19:06:39] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=f461fdc9b5c54386bcb1350bf4072015
+[2026-07-21 19:06:59] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=f461fdc9b5c54386bcb1350bf4072015 dt=19.860s
+[2026-07-21 19:07:24] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=1e6190c84052401d8a2435eed54b82aa
+[2026-07-21 19:07:56] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=1e6190c84052401d8a2435eed54b82aa dt=32.333s
+[2026-07-21 19:08:12] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=28a8a22473e342f7be7ed0f33e4272e3
+[2026-07-21 19:08:31] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=28a8a22473e342f7be7ed0f33e4272e3 dt=19.388s
+[2026-07-21 19:08:51] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=a26c4e73940a44c89caa6788fcf4ca97
+[2026-07-21 19:09:14] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=a26c4e73940a44c89caa6788fcf4ca97 dt=23.033s
+[2026-07-21 19:09:35] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=0fc2263dc29f4a9183320eddd33edb58
+[2026-07-21 19:09:56] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=0fc2263dc29f4a9183320eddd33edb58 dt=21.683s
+[2026-07-21 19:10:16] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=2287f7e926a7402a8723eaf0db683d09
+[2026-07-21 19:10:35] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=2287f7e926a7402a8723eaf0db683d09 dt=19.022s
+[2026-07-21 19:10:55] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=ac56847024014b05bcc718f73ccde0b2
+[2026-07-21 19:11:15] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=ac56847024014b05bcc718f73ccde0b2 dt=20.607s
+[2026-07-21 19:11:35] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=4d574a196c884caa93b2da69dd36f201
+[2026-07-21 19:11:56] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=4d574a196c884caa93b2da69dd36f201 dt=21.173s
+[2026-07-21 19:12:17] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=e47436300f4f4b90a2415ea87eee0903
+[2026-07-21 19:12:36] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=e47436300f4f4b90a2415ea87eee0903 dt=19.220s
+[2026-07-21 19:12:55] [bev worker 3082] start BEV build scan=29hnd4uzFmX viewpoint=1576d62e7bbb45e8a5ef9e7bb37b1839
+[2026-07-21 19:13:13] [bev worker 3082] finish BEV build scan=29hnd4uzFmX viewpoint=1576d62e7bbb45e8a5ef9e7bb37b1839 dt=18.196s
+[2026-07-21 19:13:46] [bev process] worker stopped pid=3082 mode=graceful stats(graceful=15,terminate=0,kill=0)
+[2026-07-21 19:13:46] [bev process] worker switched old_pid=3082 -> new_pid=3148 reason=reset scan=ULsKaCPVFJR restart_count=16
+[2026-07-21 19:13:48] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=0b06e41938c84b91b41b6b14db0529b9
+[2026-07-21 19:14:06] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=0b06e41938c84b91b41b6b14db0529b9 dt=18.804s
+[2026-07-21 19:14:19] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=525eea07ff0b45f49f6a47eb55b6d75e
+[2026-07-21 19:14:35] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=525eea07ff0b45f49f6a47eb55b6d75e dt=16.406s
+[2026-07-21 19:15:05] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=7c213023b8a14cf9a77272791de04b9a
+[2026-07-21 19:15:36] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=7c213023b8a14cf9a77272791de04b9a dt=31.497s
+[2026-07-21 19:15:53] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=c73a6f3769bc471588158d99186b80e6
+[2026-07-21 19:16:23] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=c73a6f3769bc471588158d99186b80e6 dt=29.336s
+[2026-07-21 19:16:39] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=f7664517a79b4e2ba69635bffa525d68
+[2026-07-21 19:17:18] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=f7664517a79b4e2ba69635bffa525d68 dt=39.163s
+[2026-07-21 19:17:36] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=550a4ce414334860aa94a9f9e1a3833c
+[2026-07-21 19:17:56] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=550a4ce414334860aa94a9f9e1a3833c dt=19.257s
+[2026-07-21 19:18:15] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=34b8aac0033445599e8932a355b34695
+[2026-07-21 19:18:46] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=34b8aac0033445599e8932a355b34695 dt=31.718s
+[2026-07-21 19:19:05] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=78d6e1d2e0d042af9f1c96b180d449d6
+[2026-07-21 19:19:46] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=78d6e1d2e0d042af9f1c96b180d449d6 dt=40.955s
+[2026-07-21 19:20:04] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=89a5978345854bd486450d81c204a79d
+[2026-07-21 19:20:29] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=89a5978345854bd486450d81c204a79d dt=24.889s
+[2026-07-21 19:20:44] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=da07d639cbd44e46abf3c23d9f7fa2c5
+[2026-07-21 19:21:10] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=da07d639cbd44e46abf3c23d9f7fa2c5 dt=25.863s
+[2026-07-21 19:21:24] [bev worker 3148] start BEV build scan=ULsKaCPVFJR viewpoint=e20ca2d896bc41bb9c03a679bf94fd68
+[2026-07-21 19:21:42] [bev worker 3148] finish BEV build scan=ULsKaCPVFJR viewpoint=e20ca2d896bc41bb9c03a679bf94fd68 dt=17.454s
+[2026-07-21 19:22:18] [bev process] worker stopped pid=3148 mode=graceful stats(graceful=16,terminate=0,kill=0)
+[2026-07-21 19:22:18] [bev process] worker switched old_pid=3148 -> new_pid=3214 reason=reset scan=e9zR4mvMWw7 restart_count=17
+[2026-07-21 19:22:20] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=6a856f5cb71645558f9f9ee069f37f1b
+[2026-07-21 19:22:55] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=6a856f5cb71645558f9f9ee069f37f1b dt=34.925s
+[2026-07-21 19:23:07] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=f6c327acf9884d988714467217d67dcd
+[2026-07-21 19:23:33] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=f6c327acf9884d988714467217d67dcd dt=26.489s
+[2026-07-21 19:23:50] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=c29b4f1d36ec4692958225cac3a70ba5
+[2026-07-21 19:24:09] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=c29b4f1d36ec4692958225cac3a70ba5 dt=18.989s
+[2026-07-21 19:24:25] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=2224be23a70a475ea6daa55d4c90a91b
+[2026-07-21 19:24:55] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=2224be23a70a475ea6daa55d4c90a91b dt=29.715s
+[2026-07-21 19:25:12] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=7492bd7b6cf5477abea81b9915a13e73
+[2026-07-21 19:25:30] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=7492bd7b6cf5477abea81b9915a13e73 dt=17.339s
+[2026-07-21 19:25:46] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=f8d915e2d06a4ff8ab6f4cdaf3e42295
+[2026-07-21 19:26:05] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=f8d915e2d06a4ff8ab6f4cdaf3e42295 dt=19.142s
+[2026-07-21 19:26:25] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=605435c04d564e878cc6fad8e5ff5a12
+[2026-07-21 19:26:42] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=605435c04d564e878cc6fad8e5ff5a12 dt=17.016s
+[2026-07-21 19:26:57] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=dc570c7a04ff47cca69c3514fe87983e
+[2026-07-21 19:27:22] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=dc570c7a04ff47cca69c3514fe87983e dt=25.270s
+[2026-07-21 19:27:36] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=10157b7114c445ed86f982a6c215adb3
+[2026-07-21 19:28:14] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=10157b7114c445ed86f982a6c215adb3 dt=37.399s
+[2026-07-21 19:28:28] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=d794889c5d384f8ca3219678963031c8
+[2026-07-21 19:28:47] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=d794889c5d384f8ca3219678963031c8 dt=19.462s
+[2026-07-21 19:29:01] [bev worker 3214] start BEV build scan=e9zR4mvMWw7 viewpoint=40a31dc1cd3c4c0caf6507f26d26d082
+[2026-07-21 19:29:20] [bev worker 3214] finish BEV build scan=e9zR4mvMWw7 viewpoint=40a31dc1cd3c4c0caf6507f26d26d082 dt=19.038s
+[2026-07-21 19:29:50] [bev process] worker stopped pid=3214 mode=graceful stats(graceful=17,terminate=0,kill=0)
+[2026-07-21 19:29:50] [bev process] worker switched old_pid=3214 -> new_pid=3280 reason=reset scan=b8cTxDM8gDG restart_count=18
+[2026-07-21 19:29:52] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=ddbcae25c7b84d26808cf0efac5e10de
+[2026-07-21 19:30:12] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=ddbcae25c7b84d26808cf0efac5e10de dt=19.763s
+[2026-07-21 19:30:24] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=7168e3659bcc40de8bfde578bb1fbeb3
+[2026-07-21 19:30:52] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=7168e3659bcc40de8bfde578bb1fbeb3 dt=27.598s
+[2026-07-21 19:31:03] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=1a9b8e0293ba40dcbd23d31757203903
+[2026-07-21 19:31:44] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=1a9b8e0293ba40dcbd23d31757203903 dt=40.807s
+[2026-07-21 19:31:56] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=8316e9313299447bb1f574aaf8cbec73
+[2026-07-21 19:32:15] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=8316e9313299447bb1f574aaf8cbec73 dt=19.260s
+[2026-07-21 19:32:27] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=b15db460058c41e8aa0c0720344daa30
+[2026-07-21 19:32:56] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=b15db460058c41e8aa0c0720344daa30 dt=29.121s
+[2026-07-21 19:33:14] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=298a2386166a43c8a04e1c24433f7d15
+[2026-07-21 19:33:47] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=298a2386166a43c8a04e1c24433f7d15 dt=33.658s
+[2026-07-21 19:34:07] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=34812a1a581b4f6490268057007f2e1a
+[2026-07-21 19:34:25] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=34812a1a581b4f6490268057007f2e1a dt=18.196s
+[2026-07-21 19:34:45] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=f523bfbaba0d40f48ff4a8d955c43ac8
+[2026-07-21 19:35:05] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=f523bfbaba0d40f48ff4a8d955c43ac8 dt=20.243s
+[2026-07-21 19:35:25] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=9fed9031c0ea482f914d07abfb59970b
+[2026-07-21 19:35:50] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=9fed9031c0ea482f914d07abfb59970b dt=25.353s
+[2026-07-21 19:36:10] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=0f4144bbdb16449e8851b4d26ed68a81
+[2026-07-21 19:36:32] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=0f4144bbdb16449e8851b4d26ed68a81 dt=21.618s
+[2026-07-21 19:36:47] [bev worker 3280] start BEV build scan=b8cTxDM8gDG viewpoint=d38c4ae95f5b4640a2696b923b80d1f4
+[2026-07-21 19:37:11] [bev worker 3280] finish BEV build scan=b8cTxDM8gDG viewpoint=d38c4ae95f5b4640a2696b923b80d1f4 dt=24.588s
+[2026-07-21 19:37:45] [bev process] worker stopped pid=3280 mode=graceful stats(graceful=18,terminate=0,kill=0)
+[2026-07-21 19:37:45] [bev process] worker switched old_pid=3280 -> new_pid=3346 reason=reset scan=mJXqzFtmKg4 restart_count=19
+[2026-07-21 19:37:47] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=61a91234ec4e4083b03a6114ddd3ce21
+[2026-07-21 19:38:14] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=61a91234ec4e4083b03a6114ddd3ce21 dt=26.927s
+[2026-07-21 19:38:26] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=7a0c00e7d0854088a292c38eb9c46ff6
+[2026-07-21 19:38:45] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=7a0c00e7d0854088a292c38eb9c46ff6 dt=19.263s
+[2026-07-21 19:39:01] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=a475d54e18664630b19f47575a874cf4
+[2026-07-21 19:39:34] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=a475d54e18664630b19f47575a874cf4 dt=32.511s
+[2026-07-21 19:39:50] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=3808d8eb951a48de9766994286c4b6e8
+[2026-07-21 19:40:17] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=3808d8eb951a48de9766994286c4b6e8 dt=26.855s
+[2026-07-21 19:40:33] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=7022a22f8b694102a795919fce934e03
+[2026-07-21 19:41:00] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=7022a22f8b694102a795919fce934e03 dt=26.750s
+[2026-07-21 19:41:17] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=410ec890d2514ed39248e9204f785ab8
+[2026-07-21 19:41:34] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=410ec890d2514ed39248e9204f785ab8 dt=17.345s
+[2026-07-21 19:41:51] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=e844a14235aa4befbb3fad6e54e8715c
+[2026-07-21 19:42:10] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=e844a14235aa4befbb3fad6e54e8715c dt=19.286s
+[2026-07-21 19:42:30] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=0b16234363974ebbb3089acf4f09d9be
+[2026-07-21 19:42:57] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=0b16234363974ebbb3089acf4f09d9be dt=26.572s
+[2026-07-21 19:43:16] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=f719c2037d3e4b70b30aa2f9e4f87320
+[2026-07-21 19:43:59] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=f719c2037d3e4b70b30aa2f9e4f87320 dt=43.235s
+[2026-07-21 19:44:19] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=c32b70bb02ec4f35ad1c76599ad6178e
+[2026-07-21 19:44:48] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=c32b70bb02ec4f35ad1c76599ad6178e dt=29.604s
+[2026-07-21 19:45:08] [bev worker 3346] start BEV build scan=mJXqzFtmKg4 viewpoint=487edda074544e32a01a0f8d1fbbff02
+[2026-07-21 19:45:26] [bev worker 3346] finish BEV build scan=mJXqzFtmKg4 viewpoint=487edda074544e32a01a0f8d1fbbff02 dt=18.801s
+[2026-07-21 19:45:52] [bev process] worker stopped pid=3346 mode=graceful stats(graceful=19,terminate=0,kill=0)
+[2026-07-21 19:45:52] [bev process] worker switched old_pid=3346 -> new_pid=3412 reason=reset scan=rPc6DW4iMge restart_count=20
+[2026-07-21 19:45:54] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=638b72f18fda418394fe583341e9c17b
+[2026-07-21 19:46:12] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=638b72f18fda418394fe583341e9c17b dt=17.798s
+[2026-07-21 19:46:29] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=877ddff288064faeb2e0b5107bd6a0bc
+[2026-07-21 19:46:46] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=877ddff288064faeb2e0b5107bd6a0bc dt=16.524s
+[2026-07-21 19:47:03] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=804c03492c564949b1d6e951d3cd2649
+[2026-07-21 19:47:18] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=804c03492c564949b1d6e951d3cd2649 dt=15.277s
+[2026-07-21 19:47:34] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=50f665df35f04b48a8e138ee19d71d7f
+[2026-07-21 19:47:50] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=50f665df35f04b48a8e138ee19d71d7f dt=15.341s
+[2026-07-21 19:48:09] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=e63cf86fedff45b8a5c895adb0cf614f
+[2026-07-21 19:48:25] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=e63cf86fedff45b8a5c895adb0cf614f dt=15.682s
+[2026-07-21 19:48:44] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=073ce382f78d4a81b8c673591a954997
+[2026-07-21 19:48:59] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=073ce382f78d4a81b8c673591a954997 dt=15.453s
+[2026-07-21 19:49:18] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=cde9277ca5a74751ac26fa289a0ec5f5
+[2026-07-21 19:49:33] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=cde9277ca5a74751ac26fa289a0ec5f5 dt=14.750s
+[2026-07-21 19:49:52] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=a5542bba97c44a2cabd742267454fd13
+[2026-07-21 19:50:08] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=a5542bba97c44a2cabd742267454fd13 dt=16.214s
+[2026-07-21 19:50:28] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=7791c5109cc04bc8b1c56f38aec384a3
+[2026-07-21 19:50:46] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=7791c5109cc04bc8b1c56f38aec384a3 dt=17.921s
+[2026-07-21 19:51:06] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=b14e23a8dde045779c223af6025a8b87
+[2026-07-21 19:51:31] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=b14e23a8dde045779c223af6025a8b87 dt=24.395s
+[2026-07-21 19:51:45] [bev worker 3412] start BEV build scan=rPc6DW4iMge viewpoint=7b5d4b406dcf462e8edb1b1dce825695
+[2026-07-21 19:52:26] [bev worker 3412] finish BEV build scan=rPc6DW4iMge viewpoint=7b5d4b406dcf462e8edb1b1dce825695 dt=40.590s
+[2026-08-24 17:08:30] [bev process] model_server started pid=130; waiting for models to load …
+[2026-08-24 17:08:32] [model_server pid=130] starting … loading CLIP + LSeg models
+[2026-08-24 17:08:32] [model_server pid=130] loading CLIP model for text features …
+[2026-08-24 17:08:37] [model_server pid=130] loading LSeg model …
+[2026-08-24 17:09:23] [model_server pid=130] models loaded dt=50.959s labels=40 clip_feat_dim=512
+[2026-08-24 17:09:23] [bev process] model_server ready (pid=130)
+[2026-08-24 17:09:30] [bev process] worker switched old_pid=None -> new_pid=252 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-08-24 17:09:47] [bev worker 252] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-08-24 17:10:20] [bev worker 252] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=32.847s
+[2026-08-24 17:10:39] [bev worker 252] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-08-24 17:10:57] [bev worker 252] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.659s
+[2026-09-10 15:57:48] [bev process] model_server started pid=131; waiting for models to load …
+[2026-09-10 15:57:50] [model_server pid=131] starting … loading CLIP + LSeg models
+[2026-09-10 15:57:50] [model_server pid=131] loading CLIP model for text features …
+[2026-09-10 15:57:52] [model_server pid=131] loading LSeg model …
+[2026-09-10 15:57:58] [model_server pid=131] models loaded dt=8.074s labels=40 clip_feat_dim=512
+[2026-09-10 15:57:58] [bev process] model_server ready (pid=131)
+[2026-09-10 15:58:04] [bev process] worker switched old_pid=None -> new_pid=253 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-09-10 15:58:06] [bev worker 253] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-09-10 15:58:34] [bev worker 253] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=28.852s
+[2026-09-10 15:58:51] [bev worker 253] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-09-10 15:59:14] [bev worker 253] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=23.184s
+[2026-09-10 15:59:30] [bev worker 253] start BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a
+[2026-09-10 15:59:57] [bev worker 253] finish BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a dt=27.269s
+[2026-09-10 16:00:13] [bev worker 253] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-09-10 16:00:40] [bev worker 253] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=26.843s
+[2026-09-10 16:00:59] [bev worker 253] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-09-10 16:01:22] [bev worker 253] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=22.874s
+[2026-09-10 16:01:36] [bev worker 253] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-09-10 16:01:54] [bev worker 253] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.691s
+[2026-09-10 16:02:11] [bev process] worker stopped pid=253 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-09-10 16:02:11] [bev process] worker switched old_pid=253 -> new_pid=320 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-09-10 16:02:14] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-09-10 16:02:44] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=30.184s
+[2026-09-10 16:02:56] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-09-10 16:03:24] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=28.312s
+[2026-09-10 16:03:41] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-09-10 16:04:00] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.350s
+[2026-09-10 16:04:16] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-09-10 16:04:35] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.259s
+[2026-09-10 16:04:54] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-09-10 16:05:14] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.462s
+[2026-09-10 16:05:33] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-09-10 16:05:52] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=18.650s
+[2026-09-10 16:06:11] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-09-10 16:06:30] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.301s
+[2026-09-10 16:06:50] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-09-10 16:07:11] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=20.709s
+[2026-09-10 16:07:26] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-09-10 16:07:51] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=25.723s
+[2026-09-10 16:08:12] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-09-10 16:08:31] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.325s
+[2026-09-10 16:08:47] [bev worker 320] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-09-10 16:09:06] [bev worker 320] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=19.924s
+[2026-09-10 16:28:40] [bev process] model_server started pid=453; waiting for models to load …
+[2026-09-10 16:28:42] [model_server pid=453] starting … loading CLIP + LSeg models
+[2026-09-10 16:28:42] [model_server pid=453] loading CLIP model for text features …
+[2026-09-10 16:28:46] [model_server pid=453] loading LSeg model …
+[2026-09-10 16:29:05] [model_server pid=453] models loaded dt=23.188s labels=40 clip_feat_dim=512
+[2026-09-10 16:29:05] [bev process] model_server ready (pid=453)
+[2026-09-10 16:29:12] [bev process] worker switched old_pid=None -> new_pid=575 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-09-10 16:29:14] [bev worker 575] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+[2026-09-10 16:29:41] [bev worker 575] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=27.187s
+[2026-09-10 16:29:59] [bev worker 575] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-09-10 16:30:36] [bev worker 575] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=36.995s
+[2026-09-10 16:30:52] [bev worker 575] start BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a
+[2026-09-10 16:31:13] [bev worker 575] finish BEV build scan=VLzqgDo317F viewpoint=dd6b2993f882400ab51f9e8c38148b7a dt=21.341s
+[2026-09-10 16:31:29] [bev worker 575] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-09-10 16:31:46] [bev worker 575] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=17.119s
+[2026-09-10 16:32:05] [bev worker 575] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-09-10 16:32:23] [bev worker 575] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=17.690s
+[2026-09-10 16:32:37] [bev worker 575] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[2026-09-10 16:32:54] [bev worker 575] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=17.320s
+[2026-09-10 16:33:11] [bev process] worker stopped pid=575 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-09-10 16:33:11] [bev process] worker switched old_pid=575 -> new_pid=642 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-09-10 16:33:13] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+[2026-09-10 16:33:35] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=22.763s
+[2026-09-10 16:33:47] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-09-10 16:34:05] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.251s
+[2026-09-10 16:34:21] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-09-10 16:34:40] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.331s
+[2026-09-10 16:34:56] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-09-10 16:35:15] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.442s
+[2026-09-10 16:35:34] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-09-10 16:35:53] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=18.973s
+[2026-09-10 16:36:12] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-09-10 16:36:31] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.643s
+[2026-09-10 16:36:51] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-09-10 16:37:12] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=21.167s
+[2026-09-10 16:37:27] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-09-10 16:37:46] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.564s
+[2026-09-10 16:38:06] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-09-10 16:38:44] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=37.180s
+[2026-09-10 16:38:58] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-09-10 16:39:41] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=42.885s
+[2026-09-10 16:39:56] [bev worker 642] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-09-10 16:40:23] [bev worker 642] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=27.179s
+[2026-09-10 16:40:45] [bev process] worker stopped pid=642 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-09-10 16:40:45] [bev process] worker switched old_pid=642 -> new_pid=708 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-09-10 16:40:47] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+[2026-09-10 16:41:39] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10 dt=51.438s
+[2026-09-10 16:41:51] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e
+[2026-09-10 16:42:16] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=74a12d0675b54d6193ba63104a6a8e2e dt=25.242s
+[2026-09-10 16:42:33] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0
+[2026-09-10 16:42:52] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=f553a3287fb2438b979f09b09448c7c0 dt=19.863s
+[2026-09-10 16:43:09] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704
+[2026-09-10 16:43:28] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=e0d2a4e22abe44d7810d7e448fff6704 dt=19.283s
+[2026-09-10 16:43:47] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef
+[2026-09-10 16:44:06] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=62e602fc5b85463dbd8f48ba625d05ef dt=18.160s
+[2026-09-10 16:44:25] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=f032c9ee981a4462914468785f0a4abe
+[2026-09-10 16:44:44] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=f032c9ee981a4462914468785f0a4abe dt=18.690s
+[2026-09-10 16:45:03] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=01b439d39a8f412fa1837be7afb45254
+[2026-09-10 16:45:21] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=01b439d39a8f412fa1837be7afb45254 dt=17.502s
+[2026-09-10 16:45:59] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a
+[2026-09-10 16:46:17] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=8f1936c546cb4b4d9a1f6a6ad8949e5a dt=18.956s
+[2026-09-10 16:46:55] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=ebb4d6a92d504053bc2420ce1b269c54
+[2026-09-10 16:47:13] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=ebb4d6a92d504053bc2420ce1b269c54 dt=18.340s
+[2026-09-10 16:47:33] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=adc00d8eaf1448b8b57fa552779ced79
+[2026-09-10 16:47:50] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=adc00d8eaf1448b8b57fa552779ced79 dt=17.727s
+[2026-09-10 16:48:11] [bev worker 708] start BEV build scan=8WUmhLawc2A viewpoint=5186e9da9b4248318f4a7ae68d11da15
+[2026-09-10 16:48:29] [bev worker 708] finish BEV build scan=8WUmhLawc2A viewpoint=5186e9da9b4248318f4a7ae68d11da15 dt=17.158s
+[2026-09-10 16:48:55] [bev process] worker stopped pid=708 mode=graceful stats(graceful=3,terminate=0,kill=0)
+[2026-09-10 16:48:55] [bev process] worker switched old_pid=708 -> new_pid=774 reason=reset scan=p5wJjkQkbXX restart_count=4
+[2026-09-10 16:48:57] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def
+[2026-09-10 16:49:26] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=897ee6cdc5314ffaa23bf487ac2e0def dt=28.531s
+[2026-09-10 16:49:37] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb
+[2026-09-10 16:50:01] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=12cd53fa035549b29c5afe191ca7c0bb dt=24.290s
+[2026-09-10 16:50:18] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=cf90b02d6cdb45c480bfcdf4cbba79ac
+[2026-09-10 16:50:37] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=cf90b02d6cdb45c480bfcdf4cbba79ac dt=19.414s
+[2026-09-10 16:50:53] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617
+[2026-09-10 16:51:16] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=88e1a361dfe240d49d9f3bf34a8f1617 dt=22.703s
+[2026-09-10 16:51:35] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c
+[2026-09-10 16:51:54] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=5d8ebc45c0c34488aca8f4edf86ec97c dt=18.823s
+[2026-09-10 16:52:14] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963
+[2026-09-10 16:52:43] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=7913c846ee9443daafb87cab26566963 dt=29.180s
+[2026-09-10 16:53:02] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12
+[2026-09-10 16:53:21] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=0ae8865e3c2d4c3388014c7d85b5ed12 dt=19.009s
+[2026-09-10 16:53:41] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13
+[2026-09-10 16:54:01] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=58548bb6a2fc4c7c8bbedf016c536b13 dt=19.867s
+[2026-09-10 16:54:19] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48
+[2026-09-10 16:54:47] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=501146779ece478696abb65fcce6ed48 dt=28.020s
+[2026-09-10 16:55:06] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee
+[2026-09-10 16:55:34] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=0d77dfd7a3894c1d83bd26c4a1c8e3ee dt=27.699s
+[2026-09-10 16:55:48] [bev worker 774] start BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323
+[2026-09-10 16:56:09] [bev worker 774] finish BEV build scan=p5wJjkQkbXX viewpoint=03a14d1a339f44d69f8b4241489a6323 dt=20.407s
+[2026-09-10 16:56:18] [bev process] worker stopped pid=774 mode=graceful stats(graceful=4,terminate=0,kill=0)
+[2026-09-10 16:56:18] [bev process] worker switched old_pid=774 -> new_pid=840 reason=reset scan=SN83YJsR3w2 restart_count=5
+[2026-09-10 16:56:21] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf
+[2026-09-10 16:56:51] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=bd67e1a2dec64aab9e028df026ce4caf dt=30.729s
+[2026-09-10 16:57:03] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=35298dd1214345239f966099a1ddac3f
+[2026-09-10 16:57:20] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=35298dd1214345239f966099a1ddac3f dt=16.620s
+[2026-09-10 16:57:38] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=d2cf7bc1308c4d1b86973b4ad1336404
+[2026-09-10 16:58:10] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=d2cf7bc1308c4d1b86973b4ad1336404 dt=32.303s
+[2026-09-10 16:58:27] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=7e8ac490e6f84193a96102e057d2c204
+[2026-09-10 16:58:44] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=7e8ac490e6f84193a96102e057d2c204 dt=17.433s
+[2026-09-10 16:58:59] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=913aefa5733c425eb79de9f5e225cd0e
+[2026-09-10 16:59:15] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=913aefa5733c425eb79de9f5e225cd0e dt=16.512s
+[2026-09-10 16:59:31] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=f745a3bf638a40dd85e29ce98d8c2aba
+[2026-09-10 16:59:52] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=f745a3bf638a40dd85e29ce98d8c2aba dt=21.704s
+[2026-09-10 17:00:07] [bev worker 840] start BEV build scan=SN83YJsR3w2 viewpoint=81a50ecde0ab42cd81e0cf23a2529675
+[2026-09-10 17:00:30] [bev worker 840] finish BEV build scan=SN83YJsR3w2 viewpoint=81a50ecde0ab42cd81e0cf23a2529675 dt=22.924s
+[2026-09-10 17:00:53] [bev process] worker stopped pid=840 mode=graceful stats(graceful=5,terminate=0,kill=0)
+[2026-09-10 17:00:53] [bev process] worker switched old_pid=840 -> new_pid=906 reason=reset scan=XcA2TqTSSAj restart_count=6
+[2026-09-10 17:00:55] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=eb7c8095d2514ab7a84732fa41ed3594
+[2026-09-10 17:01:20] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=eb7c8095d2514ab7a84732fa41ed3594 dt=25.361s
+[2026-09-10 17:01:32] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=bf22e389bd754181924923b4f5e0fe02
+[2026-09-10 17:01:57] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=bf22e389bd754181924923b4f5e0fe02 dt=25.567s
+[2026-09-10 17:02:14] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=c43ed5913b6d45e5aa3b782bfa860805
+[2026-09-10 17:02:48] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=c43ed5913b6d45e5aa3b782bfa860805 dt=34.680s
+[2026-09-10 17:03:00] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=ec0421cc61c64f6f8692d327d6838fd5
+[2026-09-10 17:03:21] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=ec0421cc61c64f6f8692d327d6838fd5 dt=20.873s
+[2026-09-10 17:03:37] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=02253cded39e4f26a34c483d645ebcb7
+[2026-09-10 17:04:05] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=02253cded39e4f26a34c483d645ebcb7 dt=28.211s
+[2026-09-10 17:04:20] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=fa065de5315940abb64684e68f6d686a
+[2026-09-10 17:04:36] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=fa065de5315940abb64684e68f6d686a dt=16.539s
+[2026-09-10 17:04:52] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=aa56e0f95db14b4481b0188dfd5b324f
+[2026-09-10 17:05:12] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=aa56e0f95db14b4481b0188dfd5b324f dt=19.878s
+[2026-09-10 17:05:28] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=b6985ed68dd8405e969fcbbcd6dfcc42
+[2026-09-10 17:05:47] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=b6985ed68dd8405e969fcbbcd6dfcc42 dt=19.541s
+[2026-09-10 17:06:03] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=213a5fa207dc491894df2f4405c40838
+[2026-09-10 17:06:21] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=213a5fa207dc491894df2f4405c40838 dt=17.756s
+[2026-09-10 17:06:37] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=1e2d321dc574469288c88e5ae2afb370
+[2026-09-10 17:06:52] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=1e2d321dc574469288c88e5ae2afb370 dt=15.240s
+[2026-09-10 17:07:08] [bev worker 906] start BEV build scan=XcA2TqTSSAj viewpoint=8fcf0b6f46b8465ab762e45a0060f6f0
+[2026-09-10 17:07:24] [bev worker 906] finish BEV build scan=XcA2TqTSSAj viewpoint=8fcf0b6f46b8465ab762e45a0060f6f0 dt=16.643s
+[2026-09-10 17:07:52] [bev process] worker stopped pid=906 mode=graceful stats(graceful=6,terminate=0,kill=0)
+[2026-09-10 17:07:52] [bev process] worker switched old_pid=906 -> new_pid=972 reason=reset scan=7y3sRwLe3Va restart_count=7
+[2026-09-10 17:07:55] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=e29484c59af4429981a6a5d5afe4d5a0
+[2026-09-10 17:08:22] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=e29484c59af4429981a6a5d5afe4d5a0 dt=27.418s
+[2026-09-10 17:08:34] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=d8cae4c7073346e392d3996254bf741c
+[2026-09-10 17:08:54] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=d8cae4c7073346e392d3996254bf741c dt=20.295s
+[2026-09-10 17:09:10] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=af5f1942b4374015823bd32e31b31c64
+[2026-09-10 17:09:30] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=af5f1942b4374015823bd32e31b31c64 dt=19.763s
+[2026-09-10 17:09:47] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=9ee37c1bce0a41e8bd50821540e80713
+[2026-09-10 17:10:04] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=9ee37c1bce0a41e8bd50821540e80713 dt=17.639s
+[2026-09-10 17:10:24] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8
+[2026-09-10 17:10:41] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8 dt=17.728s
+[2026-09-10 17:11:00] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-09-10 17:11:19] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=18.641s
+[2026-09-10 17:11:38] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=3fe5daf13a5546069766f1c4bfd50fcc
+[2026-09-10 17:11:56] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=3fe5daf13a5546069766f1c4bfd50fcc dt=17.570s
+[2026-09-10 17:12:00] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-09-10 17:12:19] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=18.853s
+[2026-09-10 17:12:38] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=cf5dbac616f94d65845bb25be5078cb8
+[2026-09-10 17:13:02] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=cf5dbac616f94d65845bb25be5078cb8 dt=24.342s
+[2026-09-10 17:13:21] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d
+[2026-09-10 17:13:39] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=204fc459fd244be1b08fe56aa9caea9d dt=18.473s
+[2026-09-10 17:13:58] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8
+[2026-09-10 17:14:16] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=e3b44e490fdb4632a07618be3c52f7a8 dt=17.717s
+[2026-09-10 17:14:38] [bev worker 972] start BEV build scan=7y3sRwLe3Va viewpoint=fd4752f551d04e22be492adea0d9fb04
+[2026-09-10 17:15:01] [bev worker 972] finish BEV build scan=7y3sRwLe3Va viewpoint=fd4752f551d04e22be492adea0d9fb04 dt=22.231s
+[2026-09-10 17:15:28] [bev process] worker stopped pid=972 mode=graceful stats(graceful=7,terminate=0,kill=0)
+[2026-09-10 17:15:28] [bev process] worker switched old_pid=972 -> new_pid=1038 reason=reset scan=ZMojNkEp431 restart_count=8
+[2026-09-10 17:15:30] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=ba8b23a7aaeb463ba565174f9f44787a
+[2026-09-10 17:16:04] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=ba8b23a7aaeb463ba565174f9f44787a dt=33.932s
+[2026-09-10 17:16:16] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=227efb9ab28046fcb020e116f7364b4a
+[2026-09-10 17:16:34] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=227efb9ab28046fcb020e116f7364b4a dt=17.679s
+[2026-09-10 17:16:51] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=c5c6bc7725e44fbf9cdb474aef50a74b
+[2026-09-10 17:17:08] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=c5c6bc7725e44fbf9cdb474aef50a74b dt=17.273s
+[2026-09-10 17:17:25] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=acf55e0267824aef8e8b9ad200e36091
+[2026-09-10 17:17:51] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=acf55e0267824aef8e8b9ad200e36091 dt=26.241s
+[2026-09-10 17:18:06] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=2fd10d37b87f46d6b4e0501aac549c6f
+[2026-09-10 17:18:23] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=2fd10d37b87f46d6b4e0501aac549c6f dt=17.381s
+[2026-09-10 17:18:43] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=7b99836e3e0045f2b5cc212e8181914b
+[2026-09-10 17:19:00] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=7b99836e3e0045f2b5cc212e8181914b dt=16.839s
+[2026-09-10 17:19:19] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=2f4d90acd4024c269fb0efe49a8ac540
+[2026-09-10 17:19:35] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=2f4d90acd4024c269fb0efe49a8ac540 dt=16.950s
+[2026-09-10 17:19:55] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=4967e9252dec465db94b791223a67a2e
+[2026-09-10 17:20:17] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=4967e9252dec465db94b791223a67a2e dt=21.763s
+[2026-09-10 17:20:36] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=3d409564a59c44ea84fd79ddc8aa4fc9
+[2026-09-10 17:20:52] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=3d409564a59c44ea84fd79ddc8aa4fc9 dt=16.705s
+[2026-09-10 17:21:12] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=44e14ff2fcd34fa9a93265e53dc53b52
+[2026-09-10 17:21:29] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=44e14ff2fcd34fa9a93265e53dc53b52 dt=17.469s
+[2026-09-10 17:21:49] [bev worker 1038] start BEV build scan=ZMojNkEp431 viewpoint=5c06622119ed4826a572db59737bbcde
+[2026-09-10 17:22:08] [bev worker 1038] finish BEV build scan=ZMojNkEp431 viewpoint=5c06622119ed4826a572db59737bbcde dt=18.529s
+[2026-09-10 17:22:31] [bev process] worker stopped pid=1038 mode=graceful stats(graceful=8,terminate=0,kill=0)
+[2026-09-10 17:22:31] [bev process] worker switched old_pid=1038 -> new_pid=1104 reason=reset scan=Uxmj2M2itWa restart_count=9
+[2026-09-10 17:22:33] [bev worker 1104] start BEV build scan=Uxmj2M2itWa viewpoint=e5d22d5625714f54add784abac16c69f
+[2026-09-10 17:22:55] [bev worker 1104] finish BEV build scan=Uxmj2M2itWa viewpoint=e5d22d5625714f54add784abac16c69f dt=21.327s
+[2026-09-10 17:23:07] [bev worker 1104] start BEV build scan=Uxmj2M2itWa viewpoint=13c191f506114c73b70830b89e195aa6
+[2026-09-10 17:23:24] [bev worker 1104] finish BEV build scan=Uxmj2M2itWa viewpoint=13c191f506114c73b70830b89e195aa6 dt=17.734s
+[2026-09-10 17:23:41] [bev worker 1104] start BEV build scan=Uxmj2M2itWa viewpoint=d52aaea9fc6e4d5fbecd0220eb9da436
+[2026-09-10 17:23:59] [bev worker 1104] finish BEV build scan=Uxmj2M2itWa viewpoint=d52aaea9fc6e4d5fbecd0220eb9da436 dt=17.757s
+[2026-09-10 17:24:15] [bev worker 1104] start BEV build scan=Uxmj2M2itWa viewpoint=4890b24fbb59414892ca854895896126
+[2026-09-10 17:24:34] [bev worker 1104] finish BEV build scan=Uxmj2M2itWa viewpoint=4890b24fbb59414892ca854895896126 dt=18.369s
+[2026-09-10 17:24:53] [bev worker 1104] start BEV build scan=Uxmj2M2itWa viewpoint=37cb64e0cddc4f20b309abc4ff5344c2
+[2026-09-10 17:25:13] [bev worker 1104] finish BEV build scan=Uxmj2M2itWa viewpoint=37cb64e0cddc4f20b309abc4ff5344c2 dt=19.177s
+[2026-09-10 17:25:32] [bev worker 1104] start BEV build scan=Uxmj2M2itWa viewpoint=3ba76deab6be444c8b21652763d82795
+[2026-09-10 17:25:49] [bev worker 1104] finish BEV build scan=Uxmj2M2itWa viewpoint=3ba76deab6be444c8b21652763d82795 dt=16.375s
+[2026-09-10 17:26:11] [bev process] worker stopped pid=1104 mode=graceful stats(graceful=9,terminate=0,kill=0)
+[2026-09-10 17:26:11] [bev process] worker switched old_pid=1104 -> new_pid=1170 reason=reset scan=EDJbREhghzL restart_count=10
+[2026-09-10 17:26:13] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=553465b804fb4fc29bf530f71dfdf1d5
+[2026-09-10 17:26:37] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=553465b804fb4fc29bf530f71dfdf1d5 dt=23.653s
+[2026-09-10 17:26:49] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=df428e69750340cdb9612ca81d9b098b
+[2026-09-10 17:27:08] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=df428e69750340cdb9612ca81d9b098b dt=19.098s
+[2026-09-10 17:27:25] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=4069c437611e44c69edf8175de76b201
+[2026-09-10 17:27:44] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=4069c437611e44c69edf8175de76b201 dt=18.978s
+[2026-09-10 17:28:01] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=a9d71330f8144d979dcb2af0771cb0b5
+[2026-09-10 17:28:18] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=a9d71330f8144d979dcb2af0771cb0b5 dt=17.126s
+[2026-09-10 17:28:38] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=e3b5cbc0554e476a8f17d4797b993d7a
+[2026-09-10 17:28:56] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=e3b5cbc0554e476a8f17d4797b993d7a dt=18.125s
+[2026-09-10 17:29:15] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=a16ed3b23f3745f28a7a039387a24575
+[2026-09-10 17:29:34] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=a16ed3b23f3745f28a7a039387a24575 dt=18.248s
+[2026-09-10 17:29:48] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa
+[2026-09-10 17:30:07] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa dt=19.424s
+[2026-09-10 17:30:22] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a
+[2026-09-10 17:30:40] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a dt=17.479s
+[2026-09-10 17:30:54] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=1084a51245eb45f59e6493068d74b7ea
+[2026-09-10 17:31:13] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=1084a51245eb45f59e6493068d74b7ea dt=18.832s
+[2026-09-10 17:31:17] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a
+[2026-09-10 17:31:34] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=b897a3508d9f43e19ba2b8d48323445a dt=17.536s
+[2026-09-10 17:31:49] [bev worker 1170] start BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa
+[2026-09-10 17:32:08] [bev worker 1170] finish BEV build scan=EDJbREhghzL viewpoint=57fbd8afe1fd42b79a657087919aa2fa dt=19.632s
+[2026-09-10 17:32:28] [bev process] worker stopped pid=1170 mode=graceful stats(graceful=10,terminate=0,kill=0)
+[2026-09-10 17:32:28] [bev process] worker switched old_pid=1170 -> new_pid=1236 reason=reset scan=D7N2EKCX4Sj restart_count=11
+[2026-09-10 17:32:30] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=e1166572e82f43d5857232295dcf4879
+[2026-09-10 17:33:03] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=e1166572e82f43d5857232295dcf4879 dt=32.232s
+[2026-09-10 17:33:14] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=d4b19206bd8b4771b11a4dbda6cb9bff
+[2026-09-10 17:33:29] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=d4b19206bd8b4771b11a4dbda6cb9bff dt=15.054s
+[2026-09-10 17:33:46] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=53549a4cd8964df9a41acdf7a0257aff
+[2026-09-10 17:34:03] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=53549a4cd8964df9a41acdf7a0257aff dt=16.809s
+[2026-09-10 17:34:19] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=778b27da719d47b494cce8c6896a9bdf
+[2026-09-10 17:34:34] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=778b27da719d47b494cce8c6896a9bdf dt=14.208s
+[2026-09-10 17:34:48] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=94446ee1941346fa9d9ed2e8251dd5c0
+[2026-09-10 17:35:07] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=94446ee1941346fa9d9ed2e8251dd5c0 dt=18.871s
+[2026-09-10 17:35:22] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=abdb1b4d143e491f8a9350b2fd869122
+[2026-09-10 17:35:44] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=abdb1b4d143e491f8a9350b2fd869122 dt=22.791s
+[2026-09-10 17:36:04] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=cf4babf2d24a44418351494fa1cb5ebf
+[2026-09-10 17:36:22] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=cf4babf2d24a44418351494fa1cb5ebf dt=18.698s
+[2026-09-10 17:36:59] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=9bbc936210084a00ad05856e0f5a3364
+[2026-09-10 17:37:24] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=9bbc936210084a00ad05856e0f5a3364 dt=24.952s
+[2026-09-10 17:37:43] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=ba692fd9ec524282935a608d975374e3
+[2026-09-10 17:38:13] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=ba692fd9ec524282935a608d975374e3 dt=29.677s
+[2026-09-10 17:38:33] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=5afc855988064b999acb5b3b180e8348
+[2026-09-10 17:38:50] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=5afc855988064b999acb5b3b180e8348 dt=17.484s
+[2026-09-10 17:39:10] [bev worker 1236] start BEV build scan=D7N2EKCX4Sj viewpoint=4e900e156c83453495bfdc9348369b9c
+[2026-09-10 17:39:30] [bev worker 1236] finish BEV build scan=D7N2EKCX4Sj viewpoint=4e900e156c83453495bfdc9348369b9c dt=20.407s
+[2026-09-10 17:39:58] [bev process] worker stopped pid=1236 mode=graceful stats(graceful=11,terminate=0,kill=0)
+[2026-09-10 17:39:58] [bev process] worker switched old_pid=1236 -> new_pid=1302 reason=reset scan=2n8kARJN3HM restart_count=12
+[2026-09-10 17:40:00] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=3611ca6eb11f4a32a7cd3c073862860d
+[2026-09-10 17:40:26] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=3611ca6eb11f4a32a7cd3c073862860d dt=26.170s
+[2026-09-10 17:40:38] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=1a3ed2a67f5f4a0c933c480f182829a9
+[2026-09-10 17:40:56] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=1a3ed2a67f5f4a0c933c480f182829a9 dt=18.527s
+[2026-09-10 17:41:18] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=ddd527993ada4e1c8d0c62fdfb33f8db
+[2026-09-10 17:41:37] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=ddd527993ada4e1c8d0c62fdfb33f8db dt=18.252s
+[2026-09-10 17:41:54] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=5126def859d74b3684fc0c4375ac49d6
+[2026-09-10 17:42:11] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=5126def859d74b3684fc0c4375ac49d6 dt=17.493s
+[2026-09-10 17:42:31] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=43b70941e6e24925b9097684ddf31c84
+[2026-09-10 17:42:49] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=43b70941e6e24925b9097684ddf31c84 dt=18.058s
+[2026-09-10 17:43:08] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=1f8182156ccd41f39c552ac05ab24877
+[2026-09-10 17:43:26] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=1f8182156ccd41f39c552ac05ab24877 dt=17.732s
+[2026-09-10 17:43:46] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=a92ada1b9db2420ca7e1b55d372f8ffa
+[2026-09-10 17:44:05] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=a92ada1b9db2420ca7e1b55d372f8ffa dt=18.691s
+[2026-09-10 17:44:24] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=b2d31a869b644c738697a237d4e724b5
+[2026-09-10 17:44:43] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=b2d31a869b644c738697a237d4e724b5 dt=18.261s
+[2026-09-10 17:45:02] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=3d6c224493aa4b8fa5fd16e7ae8e2d66
+[2026-09-10 17:45:22] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=3d6c224493aa4b8fa5fd16e7ae8e2d66 dt=19.927s
+[2026-09-10 17:45:41] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=c1a600332bb245b19d8174c0790d6fd6
+[2026-09-10 17:46:12] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=c1a600332bb245b19d8174c0790d6fd6 dt=30.225s
+[2026-09-10 17:46:32] [bev worker 1302] start BEV build scan=2n8kARJN3HM viewpoint=9c36a2928f3d436181736d628dd0a694
+[2026-09-10 17:46:51] [bev worker 1302] finish BEV build scan=2n8kARJN3HM viewpoint=9c36a2928f3d436181736d628dd0a694 dt=19.733s
+[2026-09-10 17:47:31] [bev process] worker stopped pid=1302 mode=graceful stats(graceful=12,terminate=0,kill=0)
+[2026-09-10 17:47:31] [bev process] worker switched old_pid=1302 -> new_pid=1368 reason=reset scan=HxpKQynjfin restart_count=13
+[2026-09-10 17:47:33] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=8255979462744450aef8a399712c0d7f
+[2026-09-10 17:47:53] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=8255979462744450aef8a399712c0d7f dt=19.858s
+[2026-09-10 17:48:22] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=a42b0b5c27b347b1bac3ed3e145785ba
+[2026-09-10 17:48:39] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=a42b0b5c27b347b1bac3ed3e145785ba dt=17.595s
+[2026-09-10 17:48:56] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=0c0617d40f4040e4a9268eddf91241dd
+[2026-09-10 17:49:11] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=0c0617d40f4040e4a9268eddf91241dd dt=15.675s
+[2026-09-10 17:49:28] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=1dd50bf3662244b68314b8400ebb66b6
+[2026-09-10 17:49:51] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=1dd50bf3662244b68314b8400ebb66b6 dt=23.704s
+[2026-09-10 17:50:11] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=b7016dcb34d747d2b18281748a257f5a
+[2026-09-10 17:50:31] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=b7016dcb34d747d2b18281748a257f5a dt=19.521s
+[2026-09-10 17:50:50] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=087babe565fd471381ae7adbf938f5fc
+[2026-09-10 17:51:09] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=087babe565fd471381ae7adbf938f5fc dt=18.277s
+[2026-09-10 17:51:28] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=0a709d588fcd4ae5badd921366074d7a
+[2026-09-10 17:51:46] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=0a709d588fcd4ae5badd921366074d7a dt=17.696s
+[2026-09-10 17:52:06] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=efe359ee05ea46c587196354c2d1cc96
+[2026-09-10 17:52:24] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=efe359ee05ea46c587196354c2d1cc96 dt=18.099s
+[2026-09-10 17:53:01] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=93a2a75ca72c4f99bd6d86059b298b17
+[2026-09-10 17:53:21] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=93a2a75ca72c4f99bd6d86059b298b17 dt=19.374s
+[2026-09-10 17:53:41] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=8b41e8798d78402f9f36b242972d729b
+[2026-09-10 17:53:59] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=8b41e8798d78402f9f36b242972d729b dt=18.659s
+[2026-09-10 17:54:19] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=45ee2d428b7c42a98afe21f68a8fa298
+[2026-09-10 17:54:40] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=45ee2d428b7c42a98afe21f68a8fa298 dt=20.850s
+[2026-09-10 17:55:03] [bev worker 1368] start BEV build scan=HxpKQynjfin viewpoint=f725778a3e3b43679f3c5d334021107f
+[2026-09-10 17:55:30] [bev worker 1368] finish BEV build scan=HxpKQynjfin viewpoint=f725778a3e3b43679f3c5d334021107f dt=27.094s
+[2026-09-10 17:55:52] [bev process] worker stopped pid=1368 mode=graceful stats(graceful=13,terminate=0,kill=0)
+[2026-09-10 17:55:52] [bev process] worker switched old_pid=1368 -> new_pid=1434 reason=reset scan=ur6pFq6Qu1A restart_count=14
+[2026-09-10 17:55:54] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=4a153b13a3f6424784cb8e5dabbb3a2c
+[2026-09-10 17:56:21] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=4a153b13a3f6424784cb8e5dabbb3a2c dt=26.976s
+[2026-09-10 17:56:33] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=b0a97a5d1cab4ccc98e3930107c9d8bf
+[2026-09-10 17:56:53] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=b0a97a5d1cab4ccc98e3930107c9d8bf dt=20.153s
+[2026-09-10 17:57:05] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=eb6b13622d6a4efcab3e53cabf5e2f01
+[2026-09-10 17:57:25] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=eb6b13622d6a4efcab3e53cabf5e2f01 dt=20.423s
+[2026-09-10 17:57:37] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=28c66f311baf4ffa9cf71e45bf1ca165
+[2026-09-10 17:57:57] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=28c66f311baf4ffa9cf71e45bf1ca165 dt=20.116s
+[2026-09-10 17:58:16] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=67a696124eb54cb9bb570f28df5fb8ab
+[2026-09-10 17:58:34] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=67a696124eb54cb9bb570f28df5fb8ab dt=18.200s
+[2026-09-10 17:58:53] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=c7ed1140e587433d8149e39cd09f88a2
+[2026-09-10 17:59:11] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=c7ed1140e587433d8149e39cd09f88a2 dt=18.768s
+[2026-09-10 17:59:31] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=fdf32301e35049ffa791629b4fe34d5e
+[2026-09-10 17:59:51] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=fdf32301e35049ffa791629b4fe34d5e dt=19.850s
+[2026-09-10 18:00:10] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=cbd3e6decb8147e3a79d6fb9af4585a3
+[2026-09-10 18:00:29] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=cbd3e6decb8147e3a79d6fb9af4585a3 dt=18.982s
+[2026-09-10 18:00:48] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=db4e5d9da16446ceb931d97aef767f28
+[2026-09-10 18:01:08] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=db4e5d9da16446ceb931d97aef767f28 dt=20.113s
+[2026-09-10 18:01:22] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=e5d9e78360d4473f81fc7f0c87765eb1
+[2026-09-10 18:01:41] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=e5d9e78360d4473f81fc7f0c87765eb1 dt=18.961s
+[2026-09-10 18:02:01] [bev worker 1434] start BEV build scan=ur6pFq6Qu1A viewpoint=a4e9fd45c60c4fda89cda4c256bb5a81
+[2026-09-10 18:02:27] [bev worker 1434] finish BEV build scan=ur6pFq6Qu1A viewpoint=a4e9fd45c60c4fda89cda4c256bb5a81 dt=25.675s
+[2026-09-10 18:02:58] [bev process] worker stopped pid=1434 mode=graceful stats(graceful=14,terminate=0,kill=0)
+[2026-09-10 18:02:58] [bev process] worker switched old_pid=1434 -> new_pid=1500 reason=reset scan=29hnd4uzFmX restart_count=15
+[2026-09-10 18:03:00] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=c9030e71fc29447599a5c21d90261ca5
+[2026-09-10 18:03:23] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=c9030e71fc29447599a5c21d90261ca5 dt=22.223s
+[2026-09-10 18:03:43] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=f461fdc9b5c54386bcb1350bf4072015
+[2026-09-10 18:04:02] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=f461fdc9b5c54386bcb1350bf4072015 dt=18.708s
+[2026-09-10 18:04:26] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=1e6190c84052401d8a2435eed54b82aa
+[2026-09-10 18:04:43] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=1e6190c84052401d8a2435eed54b82aa dt=17.239s
+[2026-09-10 18:04:59] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=28a8a22473e342f7be7ed0f33e4272e3
+[2026-09-10 18:05:27] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=28a8a22473e342f7be7ed0f33e4272e3 dt=28.349s
+[2026-09-10 18:05:47] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=a26c4e73940a44c89caa6788fcf4ca97
+[2026-09-10 18:06:09] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=a26c4e73940a44c89caa6788fcf4ca97 dt=22.249s
+[2026-09-10 18:06:28] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=0fc2263dc29f4a9183320eddd33edb58
+[2026-09-10 18:06:48] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=0fc2263dc29f4a9183320eddd33edb58 dt=20.292s
+[2026-09-10 18:07:08] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=2287f7e926a7402a8723eaf0db683d09
+[2026-09-10 18:07:26] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=2287f7e926a7402a8723eaf0db683d09 dt=17.642s
+[2026-09-10 18:07:46] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=ac56847024014b05bcc718f73ccde0b2
+[2026-09-10 18:08:05] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=ac56847024014b05bcc718f73ccde0b2 dt=19.363s
+[2026-09-10 18:08:25] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=4d574a196c884caa93b2da69dd36f201
+[2026-09-10 18:08:44] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=4d574a196c884caa93b2da69dd36f201 dt=19.960s
+[2026-09-10 18:09:05] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=e47436300f4f4b90a2415ea87eee0903
+[2026-09-10 18:09:23] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=e47436300f4f4b90a2415ea87eee0903 dt=17.842s
+[2026-09-10 18:09:42] [bev worker 1500] start BEV build scan=29hnd4uzFmX viewpoint=1576d62e7bbb45e8a5ef9e7bb37b1839
+[2026-09-10 18:09:59] [bev worker 1500] finish BEV build scan=29hnd4uzFmX viewpoint=1576d62e7bbb45e8a5ef9e7bb37b1839 dt=16.978s
+[2026-09-10 18:10:26] [bev process] worker stopped pid=1500 mode=graceful stats(graceful=15,terminate=0,kill=0)
+[2026-09-10 18:10:26] [bev process] worker switched old_pid=1500 -> new_pid=1566 reason=reset scan=ULsKaCPVFJR restart_count=16
+[2026-09-10 18:10:28] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=0b06e41938c84b91b41b6b14db0529b9
+[2026-09-10 18:10:43] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=0b06e41938c84b91b41b6b14db0529b9 dt=14.522s
+[2026-09-10 18:10:54] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=525eea07ff0b45f49f6a47eb55b6d75e
+[2026-09-10 18:11:16] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=525eea07ff0b45f49f6a47eb55b6d75e dt=21.339s
+[2026-09-10 18:11:45] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=7c213023b8a14cf9a77272791de04b9a
+[2026-09-10 18:12:05] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=7c213023b8a14cf9a77272791de04b9a dt=19.691s
+[2026-09-10 18:12:21] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=c73a6f3769bc471588158d99186b80e6
+[2026-09-10 18:12:40] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=c73a6f3769bc471588158d99186b80e6 dt=18.884s
+[2026-09-10 18:12:57] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=f7664517a79b4e2ba69635bffa525d68
+[2026-09-10 18:13:18] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=f7664517a79b4e2ba69635bffa525d68 dt=20.668s
+[2026-09-10 18:13:36] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=550a4ce414334860aa94a9f9e1a3833c
+[2026-09-10 18:14:13] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=550a4ce414334860aa94a9f9e1a3833c dt=37.090s
+[2026-09-10 18:14:32] [bev worker 1566] start BEV build scan=ULsKaCPVFJR viewpoint=34b8aac0033445599e8932a355b34695
+[2026-09-10 18:14:53] [bev worker 1566] finish BEV build scan=ULsKaCPVFJR viewpoint=34b8aac0033445599e8932a355b34695 dt=20.168s
+[2026-09-10 18:15:36] [bev process] worker stopped pid=1566 mode=graceful stats(graceful=16,terminate=0,kill=0)
+[2026-09-10 18:15:36] [bev process] worker switched old_pid=1566 -> new_pid=1632 reason=reset scan=e9zR4mvMWw7 restart_count=17
+[2026-09-10 18:15:38] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=6a856f5cb71645558f9f9ee069f37f1b
+[2026-09-10 18:16:00] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=6a856f5cb71645558f9f9ee069f37f1b dt=21.725s
+[2026-09-10 18:16:12] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=f6c327acf9884d988714467217d67dcd
+[2026-09-10 18:16:29] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=f6c327acf9884d988714467217d67dcd dt=16.888s
+[2026-09-10 18:16:46] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=c29b4f1d36ec4692958225cac3a70ba5
+[2026-09-10 18:17:10] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=c29b4f1d36ec4692958225cac3a70ba5 dt=24.815s
+[2026-09-10 18:17:27] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=2224be23a70a475ea6daa55d4c90a91b
+[2026-09-10 18:17:46] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=2224be23a70a475ea6daa55d4c90a91b dt=18.864s
+[2026-09-10 18:18:03] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=7492bd7b6cf5477abea81b9915a13e73
+[2026-09-10 18:18:25] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=7492bd7b6cf5477abea81b9915a13e73 dt=22.650s
+[2026-09-10 18:18:42] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=f8d915e2d06a4ff8ab6f4cdaf3e42295
+[2026-09-10 18:19:01] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=f8d915e2d06a4ff8ab6f4cdaf3e42295 dt=19.207s
+[2026-09-10 18:19:21] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=605435c04d564e878cc6fad8e5ff5a12
+[2026-09-10 18:19:38] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=605435c04d564e878cc6fad8e5ff5a12 dt=17.195s
+[2026-09-10 18:19:52] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=dc570c7a04ff47cca69c3514fe87983e
+[2026-09-10 18:20:13] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=dc570c7a04ff47cca69c3514fe87983e dt=20.404s
+[2026-09-10 18:20:27] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=10157b7114c445ed86f982a6c215adb3
+[2026-09-10 18:20:47] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=10157b7114c445ed86f982a6c215adb3 dt=19.676s
+[2026-09-10 18:21:01] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=d794889c5d384f8ca3219678963031c8
+[2026-09-10 18:21:21] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=d794889c5d384f8ca3219678963031c8 dt=19.666s
+[2026-09-10 18:21:35] [bev worker 1632] start BEV build scan=e9zR4mvMWw7 viewpoint=40a31dc1cd3c4c0caf6507f26d26d082
+[2026-09-10 18:21:54] [bev worker 1632] finish BEV build scan=e9zR4mvMWw7 viewpoint=40a31dc1cd3c4c0caf6507f26d26d082 dt=19.291s
+[2026-09-10 18:22:17] [bev process] worker stopped pid=1632 mode=graceful stats(graceful=17,terminate=0,kill=0)
+[2026-09-10 18:22:17] [bev process] worker switched old_pid=1632 -> new_pid=1698 reason=reset scan=b8cTxDM8gDG restart_count=18
+[2026-09-10 18:22:20] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=ddbcae25c7b84d26808cf0efac5e10de
+[2026-09-10 18:22:45] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=ddbcae25c7b84d26808cf0efac5e10de dt=25.896s
+[2026-09-10 18:22:57] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=7168e3659bcc40de8bfde578bb1fbeb3
+[2026-09-10 18:23:13] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=7168e3659bcc40de8bfde578bb1fbeb3 dt=15.950s
+[2026-09-10 18:23:25] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=1a9b8e0293ba40dcbd23d31757203903
+[2026-09-10 18:23:44] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=1a9b8e0293ba40dcbd23d31757203903 dt=19.602s
+[2026-09-10 18:23:56] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=8316e9313299447bb1f574aaf8cbec73
+[2026-09-10 18:24:22] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=8316e9313299447bb1f574aaf8cbec73 dt=26.349s
+[2026-09-10 18:24:34] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=b15db460058c41e8aa0c0720344daa30
+[2026-09-10 18:25:02] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=b15db460058c41e8aa0c0720344daa30 dt=28.359s
+[2026-09-10 18:25:19] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=298a2386166a43c8a04e1c24433f7d15
+[2026-09-10 18:25:58] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=298a2386166a43c8a04e1c24433f7d15 dt=38.542s
+[2026-09-10 18:26:18] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=34812a1a581b4f6490268057007f2e1a
+[2026-09-10 18:26:38] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=34812a1a581b4f6490268057007f2e1a dt=19.474s
+[2026-09-10 18:26:58] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=f523bfbaba0d40f48ff4a8d955c43ac8
+[2026-09-10 18:27:21] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=f523bfbaba0d40f48ff4a8d955c43ac8 dt=22.528s
+[2026-09-10 18:27:41] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=9fed9031c0ea482f914d07abfb59970b
+[2026-09-10 18:28:03] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=9fed9031c0ea482f914d07abfb59970b dt=21.956s
+[2026-09-10 18:28:23] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=0f4144bbdb16449e8851b4d26ed68a81
+[2026-09-10 18:28:38] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=0f4144bbdb16449e8851b4d26ed68a81 dt=15.257s
+[2026-09-10 18:28:53] [bev worker 1698] start BEV build scan=b8cTxDM8gDG viewpoint=d38c4ae95f5b4640a2696b923b80d1f4
+[2026-09-10 18:29:08] [bev worker 1698] finish BEV build scan=b8cTxDM8gDG viewpoint=d38c4ae95f5b4640a2696b923b80d1f4 dt=14.937s
+[2026-09-10 18:29:36] [bev process] worker stopped pid=1698 mode=graceful stats(graceful=18,terminate=0,kill=0)
+[2026-09-10 18:29:36] [bev process] worker switched old_pid=1698 -> new_pid=1764 reason=reset scan=mJXqzFtmKg4 restart_count=19
+[2026-09-10 18:29:38] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=61a91234ec4e4083b03a6114ddd3ce21
+[2026-09-10 18:30:05] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=61a91234ec4e4083b03a6114ddd3ce21 dt=27.477s
+[2026-09-10 18:30:17] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=7a0c00e7d0854088a292c38eb9c46ff6
+[2026-09-10 18:30:37] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=7a0c00e7d0854088a292c38eb9c46ff6 dt=19.607s
+[2026-09-10 18:30:53] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=a475d54e18664630b19f47575a874cf4
+[2026-09-10 18:31:11] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=a475d54e18664630b19f47575a874cf4 dt=17.835s
+[2026-09-10 18:31:27] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=3808d8eb951a48de9766994286c4b6e8
+[2026-09-10 18:31:44] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=3808d8eb951a48de9766994286c4b6e8 dt=17.196s
+[2026-09-10 18:32:01] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=7022a22f8b694102a795919fce934e03
+[2026-09-10 18:32:21] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=7022a22f8b694102a795919fce934e03 dt=20.256s
+[2026-09-10 18:32:38] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=410ec890d2514ed39248e9204f785ab8
+[2026-09-10 18:32:56] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=410ec890d2514ed39248e9204f785ab8 dt=17.782s
+[2026-09-10 18:33:13] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=e844a14235aa4befbb3fad6e54e8715c
+[2026-09-10 18:33:39] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=e844a14235aa4befbb3fad6e54e8715c dt=26.492s
+[2026-09-10 18:33:59] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=0b16234363974ebbb3089acf4f09d9be
+[2026-09-10 18:34:19] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=0b16234363974ebbb3089acf4f09d9be dt=20.050s
+[2026-09-10 18:34:38] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=f719c2037d3e4b70b30aa2f9e4f87320
+[2026-09-10 18:34:59] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=f719c2037d3e4b70b30aa2f9e4f87320 dt=20.260s
+[2026-09-10 18:35:18] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=c32b70bb02ec4f35ad1c76599ad6178e
+[2026-09-10 18:35:38] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=c32b70bb02ec4f35ad1c76599ad6178e dt=19.850s
+[2026-09-10 18:35:58] [bev worker 1764] start BEV build scan=mJXqzFtmKg4 viewpoint=487edda074544e32a01a0f8d1fbbff02
+[2026-09-10 18:36:17] [bev worker 1764] finish BEV build scan=mJXqzFtmKg4 viewpoint=487edda074544e32a01a0f8d1fbbff02 dt=19.341s
+[2026-09-10 18:36:36] [bev process] worker stopped pid=1764 mode=graceful stats(graceful=19,terminate=0,kill=0)
+[2026-09-10 18:36:36] [bev process] worker switched old_pid=1764 -> new_pid=1830 reason=reset scan=rPc6DW4iMge restart_count=20
+[2026-09-10 18:36:38] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=638b72f18fda418394fe583341e9c17b
+[2026-09-10 18:37:02] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=638b72f18fda418394fe583341e9c17b dt=23.055s
+[2026-09-10 18:37:19] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=877ddff288064faeb2e0b5107bd6a0bc
+[2026-09-10 18:37:32] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=877ddff288064faeb2e0b5107bd6a0bc dt=13.760s
+[2026-09-10 18:37:49] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=804c03492c564949b1d6e951d3cd2649
+[2026-09-10 18:38:05] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=804c03492c564949b1d6e951d3cd2649 dt=15.425s
+[2026-09-10 18:38:21] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=50f665df35f04b48a8e138ee19d71d7f
+[2026-09-10 18:38:36] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=50f665df35f04b48a8e138ee19d71d7f dt=15.557s
+[2026-09-10 18:38:56] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=e63cf86fedff45b8a5c895adb0cf614f
+[2026-09-10 18:39:12] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=e63cf86fedff45b8a5c895adb0cf614f dt=15.870s
+[2026-09-10 18:39:30] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=073ce382f78d4a81b8c673591a954997
+[2026-09-10 18:39:46] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=073ce382f78d4a81b8c673591a954997 dt=15.607s
+[2026-09-10 18:40:05] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=cde9277ca5a74751ac26fa289a0ec5f5
+[2026-09-10 18:40:20] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=cde9277ca5a74751ac26fa289a0ec5f5 dt=15.009s
+[2026-09-10 18:40:40] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=a5542bba97c44a2cabd742267454fd13
+[2026-09-10 18:40:57] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=a5542bba97c44a2cabd742267454fd13 dt=16.343s
+[2026-09-10 18:41:17] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=7791c5109cc04bc8b1c56f38aec384a3
+[2026-09-10 18:41:47] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=7791c5109cc04bc8b1c56f38aec384a3 dt=29.707s
+[2026-09-10 18:42:06] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=b14e23a8dde045779c223af6025a8b87
+[2026-09-10 18:42:26] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=b14e23a8dde045779c223af6025a8b87 dt=19.732s
+[2026-09-10 18:42:41] [bev worker 1830] start BEV build scan=rPc6DW4iMge viewpoint=7b5d4b406dcf462e8edb1b1dce825695
+[2026-09-10 18:43:01] [bev worker 1830] finish BEV build scan=rPc6DW4iMge viewpoint=7b5d4b406dcf462e8edb1b1dce825695 dt=19.017s

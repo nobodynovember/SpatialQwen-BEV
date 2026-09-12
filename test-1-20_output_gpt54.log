@@ -1,0 +1,689 @@
+nohup: ignoring input
+------------------ Evaluate 0-20 in SpatialGPTBEV_72_scenes_processed ------------------
+Loading navigation graphs for 20 scans
+R2RNavBatch loaded with 20 instructions, using splits: SpatialGPTBEV_72_scenes_processed
+Model version: qwen3-vl-8b
+[2026-07-17 21:28:43] [bev process] model_server started pid=1058; waiting for models to load …
+[2026-07-17 21:28:45] [model_server pid=1058] starting … loading CLIP + LSeg models
+[2026-07-17 21:28:45] [model_server pid=1058] loading CLIP model for text features …
+[2026-07-17 21:28:49] [model_server pid=1058] loading LSeg model …
+[2026-07-17 21:29:33] [model_server pid=1058] models loaded dt=47.786s labels=40 clip_feat_dim=512
+[2026-07-17 21:29:33] [bev process] model_server ready (pid=1058)
+Start evaluating SpatialGPTBEV_72_scenes_processed
+spatial gpt running...
+-------------------- Rollout Reset --------------------
+Navigation Instruction Steps: [{'action_name': 'walk forward', 'landmarks': []}, {'action_name': 'turn right at the stairs', 'landmarks': [{'landmark_name': 'stairs', 'relative_spatial_area': 'right'}]}, {'action_name': 'go down the stairs', 'landmarks': []}]
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: c55fa077761c4154af4b26da88eee80d
+     Add Candidate Node: 5be145994f974347850a48cecd04cdcd
+     Add Observation Node: af3af33b0120469c9a00daa0d0b36799
+     Set Node Property of Agent Orientation: 7
+     Set Node Property of VLN-DCEL: {'front': [], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'reset', 'scan': 'VLzqgDo317F', 'viewpoint': 'af3af33b0120469c9a00daa0d0b36799', 'heading': 3.665191429188092, 'elevation': 0.0, 'LX': 2.2407100200653076, 'LY': -5.2129998207092285, 'LZ': 4.926660060882568, 'is_reverie': False}
+[2026-07-17 21:29:41] [bev process] worker switched old_pid=None -> new_pid=1180 reason=worker_missing scan=VLzqgDo317F restart_count=1
+[2026-07-17 21:29:43] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799
+Renderer: NVIDIA RTX 6000 Ada Generation/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 560.35.03
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[21:29:43:300375]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[2026-07-17 21:30:17] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=af3af33b0120469c9a00daa0d0b36799 dt=34.027s
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: None
+      Execute Movement Action: walk forward
+      Selected Direction: 6
+      Alternative Direction: [5, 6]
+      Subsequent Path Plan: walk forward, then turn right at the stairs, then go down the stairs.
+[GPT] Down-Elevation Spatial Alignment Inference-Selected Direction: 6
+Stop_after not reached, Continue
+Destination Invisible at Distance Estimation
+[SpatialGPT Select Node: 5be145994f974347850a48cecd04cdcd
+Latest Trajectory:
+af3af33b0120469c9a00daa0d0b36799
+Grounded Path: ['af3af33b0120469c9a00daa0d0b36799', '5be145994f974347850a48cecd04cdcd', '79aedad1206b4eea9c4b639ea2182eb7', '1c91ed40af2246f2b126dd0f661970df', '385019f5d018430fa233d483b253076c', 'fd263d778b534f798d0e1ae48886e5f3']
+[2026-07-17 21:30:36] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd
+[2026-07-17 21:30:54] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=5be145994f974347850a48cecd04cdcd dt=17.631s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: af3af33b0120469c9a00daa0d0b36799
+     Add Candidate Node: c55fa077761c4154af4b26da88eee80d
+     Add Candidate Node: 248492258fd5435c8276f59f63ddf0ef
+     Add Candidate Node: adcc15e35b9441139036aeefda56e0a4
+     Add Candidate Node: 293a1e64b85e4e84a3a44fe8ee9d9bd4
+     Add Candidate Node: fd433ad8502149ec849c4c51bb989e4a
+     Add Candidate Node: dd6b2993f882400ab51f9e8c38148b7a
+     Add Candidate Node: 79aedad1206b4eea9c4b639ea2182eb7
+     Add Observation Node: 5be145994f974347850a48cecd04cdcd
+     Set Node Property of Agent Orientation: 6
+     Set Node Property of VLN-DCEL: {'front': [], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'VLzqgDo317F', 'viewpoint': '5be145994f974347850a48cecd04cdcd', 'heading': 3.141592653589793, 'elevation': 0.0, 'LX': 2.366260051727295, 'LY': -7.764369964599609, 'LZ': 4.740260124206543, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:walk forward
+      Previous Step Completion:yes
+      Confidence: 0.95
+      Brief Reason:The BEV image shows a solid blue line connecting viewpoint 0 to viewpoint 1, indicating the agent has moved forward from the initial position. The red circle at viewpoint 1 marks the agent's current position, confirming completion of the 'walk forward' instruction.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: stairs
+      Execute Movement Action: turn right at the stairs
+      Selected Direction: 10
+      Alternative Direction: [10]
+      Subsequent Path Plan: turn right at the stairs then go down the stairs.
+[GPT] Down-Elevation Spatial Alignment Inference-Selected Direction: 10
+Stop_after not reached, Continue
+Destination Invisible at Distance Estimation
+[SpatialGPT Select Node: 79aedad1206b4eea9c4b639ea2182eb7
+Latest Trajectory:
+af3af33b0120469c9a00daa0d0b36799
+5be145994f974347850a48cecd04cdcd
+Grounded Path: ['af3af33b0120469c9a00daa0d0b36799', '5be145994f974347850a48cecd04cdcd', '79aedad1206b4eea9c4b639ea2182eb7', '1c91ed40af2246f2b126dd0f661970df', '385019f5d018430fa233d483b253076c', 'fd263d778b534f798d0e1ae48886e5f3']
+[2026-07-17 21:31:17] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7
+[2026-07-17 21:31:49] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=79aedad1206b4eea9c4b639ea2182eb7 dt=31.842s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 1c91ed40af2246f2b126dd0f661970df
+     Add Candidate Node: 5be145994f974347850a48cecd04cdcd
+     Add Candidate Node: dd6b2993f882400ab51f9e8c38148b7a
+     Add Candidate Node: 629b626095374e3ab7d9b7ba98f2f7ba
+     Add Observation Node: 79aedad1206b4eea9c4b639ea2182eb7
+     Set Node Property of Agent Orientation: 10
+     Set Node Property of VLN-DCEL: {'front': ['stairs'], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'VLzqgDo317F', 'viewpoint': '79aedad1206b4eea9c4b639ea2182eb7', 'heading': 5.235987755982988, 'elevation': 0.0, 'LX': -0.18168599903583527, 'LY': -5.791790008544922, 'LZ': 4.341509819030762, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:turn right at the stairs
+      Previous Step Completion:yes
+      Confidence: 0.95
+      Brief Reason:The agent has moved from viewpoint 1 to viewpoint 2, and the trajectory shows a clear right turn at the stairs, indicating the previous step instruction has been completed.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: None
+      Execute Movement Action: go down the stairs and stop at the bottom
+      Selected Direction: 0
+      Alternative Direction: [4, 6, 8]
+      Subsequent Path Plan: Go down the stairs.
+Stop_after not reached, Continue
+Destination Invisible at Distance Estimation
+[SpatialGPT Select Node: 1c91ed40af2246f2b126dd0f661970df
+Latest Trajectory:
+af3af33b0120469c9a00daa0d0b36799
+5be145994f974347850a48cecd04cdcd
+79aedad1206b4eea9c4b639ea2182eb7
+Grounded Path: ['af3af33b0120469c9a00daa0d0b36799', '5be145994f974347850a48cecd04cdcd', '79aedad1206b4eea9c4b639ea2182eb7', '1c91ed40af2246f2b126dd0f661970df', '385019f5d018430fa233d483b253076c', 'fd263d778b534f798d0e1ae48886e5f3']
+[2026-07-17 21:32:06] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df
+[2026-07-17 21:32:44] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=1c91ed40af2246f2b126dd0f661970df dt=38.066s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 385019f5d018430fa233d483b253076c
+     Add Candidate Node: 79aedad1206b4eea9c4b639ea2182eb7
+     Add Observation Node: 1c91ed40af2246f2b126dd0f661970df
+     Set Node Property of Agent Orientation: 0
+     Set Node Property of VLN-DCEL: {'front': [], 'back': ['stairs'], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'VLzqgDo317F', 'viewpoint': '1c91ed40af2246f2b126dd0f661970df', 'heading': 0.0, 'elevation': -0.5235987755982988, 'LX': -0.16341499984264374, 'LY': -3.9161500930786133, 'LZ': 3.343130111694336, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: None
+      Execute Movement Action: go down the stairs and stop at the bottom
+      Selected Direction: 6
+      Alternative Direction: ['5', '7']
+      Subsequent Path Plan: Go down the stairs.
+Destination Seen at Distance Estimation (Meter): 2.5
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the bottom of the stairs, which is not visible in the current BEV view. The agent is currently at viewpoint 3, which is inside the red dashed circle (2.5m radius), but the stairs are not located within this circle. The instruction requires going down the stairs, so the agent must continue moving.
+Stop FPV-Estimated Distance: 2.5
+Add current viewpoint to stop_alternative_list: 1c91ed40af2246f2b126dd0f661970df
+[SpatialGPT Select Node: 385019f5d018430fa233d483b253076c
+Latest Trajectory:
+af3af33b0120469c9a00daa0d0b36799
+5be145994f974347850a48cecd04cdcd
+79aedad1206b4eea9c4b639ea2182eb7
+1c91ed40af2246f2b126dd0f661970df
+Grounded Path: ['af3af33b0120469c9a00daa0d0b36799', '5be145994f974347850a48cecd04cdcd', '79aedad1206b4eea9c4b639ea2182eb7', '1c91ed40af2246f2b126dd0f661970df', '385019f5d018430fa233d483b253076c', 'fd263d778b534f798d0e1ae48886e5f3']
+[2026-07-17 21:33:00] [bev worker 1180] start BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c
+[INFO] Floor change detected: 4.926660060882568 -> 2.764470100402832. Resetting BEV and trajectory.
+[2026-07-17 21:33:32] [bev worker 1180] finish BEV build scan=VLzqgDo317F viewpoint=385019f5d018430fa233d483b253076c dt=31.855s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: fd263d778b534f798d0e1ae48886e5f3
+     Add Candidate Node: 1c91ed40af2246f2b126dd0f661970df
+     Add Observation Node: 385019f5d018430fa233d483b253076c
+     Set Node Property of Agent Orientation: 0
+     Set Node Property of VLN-DCEL: {'front': [], 'back': ['stairs'], 'left': [], 'right': []}
+[INFO] SpatialExpert detected floor change: 4.926660060882568 -> 2.764470100402832. Clearing traj display ids.
+Requesting BEV build in-process: {'type': 'step', 'scan': 'VLzqgDo317F', 'viewpoint': '385019f5d018430fa233d483b253076c', 'heading': 0.0, 'elevation': -0.5235987755982988, 'LX': -0.2344689965248108, 'LY': -2.724679946899414, 'LZ': 2.764470100402832, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: None
+      Execute Movement Action: go down the stairs and stop at the bottom
+      Selected Direction: 6
+      Alternative Direction: ['5', '7']
+      Subsequent Path Plan: Go down the stairs.
+Destination Invisible at Distance Estimation
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the bottom of the stairs, which is not yet reached. The agent is currently at viewpoint 0, and the stairs are visible in the semantic BEV as a labeled area. The agent must descend the stairs to reach the destination, so stopping now is not appropriate.
+Stop FPV-Estimated Distance: -1.0
+Stair end destination, Confirming Stop
+[SpatialGPT Select Node: fd263d778b534f798d0e1ae48886e5f3
+Latest Trajectory:
+af3af33b0120469c9a00daa0d0b36799
+5be145994f974347850a48cecd04cdcd
+79aedad1206b4eea9c4b639ea2182eb7
+1c91ed40af2246f2b126dd0f661970df
+385019f5d018430fa233d483b253076c
+Grounded Path: ['af3af33b0120469c9a00daa0d0b36799', '5be145994f974347850a48cecd04cdcd', '79aedad1206b4eea9c4b639ea2182eb7', '1c91ed40af2246f2b126dd0f661970df', '385019f5d018430fa233d483b253076c', 'fd263d778b534f798d0e1ae48886e5f3']
+[SpatialGPT] Stopped
+eval 1 predictions
+Current case  -  steps: 4.00  lengths: 9.26  nav_error: 2.40  oracle_error: 2.40  sr: 100.00  oracle_sr: 100.00  spl: 100.00
+-------------------- Rollout Reset --------------------
+Navigation Instruction Steps: [{'action_name': 'Head straight until you pass the wall with holes in it', 'landmarks': [{'landmark_name': 'wall with holes in it', 'relative_spatial_area': 'front'}]}, {'action_name': 'turn left', 'landmarks': []}, {'action_name': 'wait by the glass table with the white chairs', 'landmarks': [{'landmark_name': 'glass table with the white chairs', 'relative_spatial_area': 'front'}]}]
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 828c1d66f183441db9ac8bfcc7e5de31
+     Add Candidate Node: 8138835f78064c28b6c9c35a89eda7d6
+     Add Candidate Node: 444bc5d6006244e7b609dd9d06fed1f3
+     Add Candidate Node: 7cb2c4bc9ad84463b4d0c6a91b8c4640
+     Add Candidate Node: ac03a2880cf542ea9c515171a3c4266f
+     Add Observation Node: 9d001c6bc0f64a699fd36a6b9a61266a
+     Set Node Property of Agent Orientation: 9
+     Set Node Property of VLN-DCEL: {'front': [], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'reset', 'scan': 'sT4fr6TAbpF', 'viewpoint': '9d001c6bc0f64a699fd36a6b9a61266a', 'heading': 4.71238898038469, 'elevation': 0.0, 'LX': 1.6213799715042114, 'LY': 5.153940200805664, 'LZ': 1.2992600202560425, 'is_reverie': False}
+[2026-07-17 21:33:48] [bev process] worker stopped pid=1180 mode=graceful stats(graceful=1,terminate=0,kill=0)
+[2026-07-17 21:33:48] [bev process] worker switched old_pid=1180 -> new_pid=1247 reason=reset scan=sT4fr6TAbpF restart_count=2
+[2026-07-17 21:33:50] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a
+Renderer: NVIDIA RTX 6000 Ada Generation/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 560.35.03
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[21:33:50:841460]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[2026-07-17 21:34:15] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=9d001c6bc0f64a699fd36a6b9a61266a dt=24.707s
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: wall with holes in it
+      Execute Movement Action: Head straight until you pass the wall with holes in it
+      Selected Direction: 2
+      Alternative Direction: [7, 8]
+      Subsequent Path Plan: Move straight to pass the wall with holes, then turn left and proceed to the glass table with white chairs.
+Stop_after not reached, Continue
+Destination Invisible at Distance Estimation
+[SpatialGPT Select Node: 828c1d66f183441db9ac8bfcc7e5de31
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:34:30] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31
+[2026-07-17 21:34:48] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=828c1d66f183441db9ac8bfcc7e5de31 dt=18.286s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 8138835f78064c28b6c9c35a89eda7d6
+     Add Candidate Node: 444bc5d6006244e7b609dd9d06fed1f3
+     Add Candidate Node: 9d001c6bc0f64a699fd36a6b9a61266a
+     Add Observation Node: 828c1d66f183441db9ac8bfcc7e5de31
+     Set Node Property of Agent Orientation: 2
+     Set Node Property of VLN-DCEL: {'front': ['glass table with the white chairs', 'wall with holes in it'], 'back': ['wall with holes in it'], 'left': ['glass table with the white chairs', 'wall with holes in it'], 'right': ['glass table with the white chairs']}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '828c1d66f183441db9ac8bfcc7e5de31', 'heading': 1.0471975511965976, 'elevation': 0.0, 'LX': 2.738149881362915, 'LY': 5.717800140380859, 'LZ': 1.299149990081787, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:Head straight until you pass the wall with holes in it
+      Previous Step Completion:no
+      Confidence: 0.95
+      Brief Reason:The agent is currently at viewpoint 1, which is before passing the wall with holes in it. The trajectory (blue line) shows movement toward the wall, but the agent has not yet passed it, as the wall is still ahead in the path.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: wall with holes in it
+      Execute Movement Action: Head straight until you pass the wall with holes in it
+      Selected Direction: 3
+      Alternative Direction: [3, 4, 5]
+      Subsequent Path Plan: Move straight to pass the wall with holes, then turn left and proceed to the glass table with white chairs.
+Stop_after not reached, Continue
+Destination Invisible at Distance Estimation
+[SpatialGPT Select Node: 8138835f78064c28b6c9c35a89eda7d6
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:35:09] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6
+[2026-07-17 21:35:27] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=8138835f78064c28b6c9c35a89eda7d6 dt=18.326s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 37a978a1cc0e4464a714fb676f65b7fb
+     Add Candidate Node: 177f67f4e2264d24996672f84cd38405
+     Add Candidate Node: 444bc5d6006244e7b609dd9d06fed1f3
+     Add Candidate Node: 9d001c6bc0f64a699fd36a6b9a61266a
+     Add Candidate Node: 828c1d66f183441db9ac8bfcc7e5de31
+     Add Observation Node: 8138835f78064c28b6c9c35a89eda7d6
+     Set Node Property of Agent Orientation: 3
+     Set Node Property of VLN-DCEL: {'front': ['wall with holes in it', 'glass table with the white chairs'], 'back': ['wall with holes in it'], 'left': ['wall with holes in it'], 'right': ['glass table with the white chairs']}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '8138835f78064c28b6c9c35a89eda7d6', 'heading': 1.5707963267948966, 'elevation': 0.0, 'LX': 3.5181798934936523, 'LY': 5.680830001831055, 'LZ': 1.299530029296875, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:Head straight until you pass the wall with holes in it
+      Previous Step Completion:no
+      Confidence: 0.95
+      Brief Reason:The agent is currently at viewpoint 2, which is after having passed the wall with holes (viewpoint 1), but the instruction was to head straight until passing the wall, implying the goal was to reach beyond it. Since the agent has not yet moved past viewpoint 1, the step is not completed.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: wall with holes in it
+      Execute Movement Action: Head straight until you pass the wall with holes in it
+      Selected Direction: 3
+      Alternative Direction: [3, 1, 0]
+      Subsequent Path Plan: Move straight to pass the wall with holes, then turn left and proceed to the glass table with white chairs.
+Stop_after not reached, Continue
+Destination Invisible at Distance Estimation
+[SpatialGPT Select Node: 37a978a1cc0e4464a714fb676f65b7fb
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:35:45] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb
+[2026-07-17 21:36:04] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=37a978a1cc0e4464a714fb676f65b7fb dt=18.504s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 859a7c9c12c847d9a6860bd6d6bd635a
+     Add Candidate Node: 177f67f4e2264d24996672f84cd38405
+     Add Candidate Node: faf331eb87d74cc09705b5cac988d05e
+     Add Candidate Node: 444bc5d6006244e7b609dd9d06fed1f3
+     Add Candidate Node: 8138835f78064c28b6c9c35a89eda7d6
+     Add Observation Node: 37a978a1cc0e4464a714fb676f65b7fb
+     Set Node Property of Agent Orientation: 3
+     Set Node Property of VLN-DCEL: {'front': ['glass table with the white chairs'], 'back': [], 'left': [], 'right': ['glass table with the white chairs']}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '37a978a1cc0e4464a714fb676f65b7fb', 'heading': 1.5707963267948966, 'elevation': 0.0, 'LX': 4.358940124511719, 'LY': 5.741640090942383, 'LZ': 1.2991399765014648, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:Head straight until you pass the wall with holes in it
+      Previous Step Completion:yes
+      Confidence: 0.95
+      Brief Reason:The agent's trajectory (blue line) from viewpoint 0 to 1 to 2 to 3 shows continuous forward movement. Viewpoint 3 is past the wall with holes, as indicated by the spatial progression and the presence of the landmark in the path. The agent has clearly passed the wall, fulfilling the instruction.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: None
+      Execute Movement Action: turn left
+      Selected Direction: 1
+      Alternative Direction: [0]
+      Subsequent Path Plan: turn left and wait by the glass table with the white chairs
+Destination Invisible at Distance Estimation
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not visible in the current BEV view. The agent is currently at viewpoint 3, and the path to the destination requires moving forward past the wall with holes and turning left. The red dashed circle indicates the agent's current 2.5m radius area, which does not contain the destination.
+Stop FPV-Estimated Distance: -1.0
+[SpatialGPT Select Node: 859a7c9c12c847d9a6860bd6d6bd635a
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:36:25] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a
+[2026-07-17 21:36:49] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=859a7c9c12c847d9a6860bd6d6bd635a dt=23.947s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: c3c5e202b9a04a63ae33742fe9095936
+     Add Candidate Node: a16dec9339d9487491fd55c465312db4
+     Add Candidate Node: 177f67f4e2264d24996672f84cd38405
+     Add Candidate Node: 444bc5d6006244e7b609dd9d06fed1f3
+     Add Candidate Node: 37a978a1cc0e4464a714fb676f65b7fb
+     Add Observation Node: 859a7c9c12c847d9a6860bd6d6bd635a
+     Set Node Property of Agent Orientation: 2
+     Set Node Property of VLN-DCEL: {'front': [], 'back': ['glass table with the white chairs'], 'left': ['glass table with the white chairs'], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '859a7c9c12c847d9a6860bd6d6bd635a', 'heading': 1.0471975511965976, 'elevation': 0.0, 'LX': 5.537859916687012, 'LY': 6.186800003051758, 'LZ': 1.3011800050735474, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:turn left
+      Previous Step Completion:yes
+      Confidence: 0.95
+      Brief Reason:The trajectory shows the agent has moved from viewpoint 2 to viewpoint 3, which is a left turn as indicated by the change in direction. The path from 2 to 3 clearly demonstrates the completion of the 'turn left' instruction.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 5
+      Alternative Direction: [11, 5, 8]
+      Subsequent Path Plan: Move forward to the glass table with white chairs.
+Destination Seen at Distance Estimation (Meter): 1.5
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not located within the red dashed circle (current agent position). The agent must continue moving forward to reach the table after passing the wall with holes.
+Stop FPV-Estimated Distance: 1.5
+Add current viewpoint to stop_alternative_list: 859a7c9c12c847d9a6860bd6d6bd635a
+[SpatialGPT Select Node: a16dec9339d9487491fd55c465312db4
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:37:08] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4
+[2026-07-17 21:37:27] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=a16dec9339d9487491fd55c465312db4 dt=19.428s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 4c778faa3ebe485590f7b201b0090251
+     Add Candidate Node: 55abf0a58ae34456a58279523de80df6
+     Add Candidate Node: 859a7c9c12c847d9a6860bd6d6bd635a
+     Add Observation Node: a16dec9339d9487491fd55c465312db4
+     Set Node Property of Agent Orientation: 5
+     Set Node Property of VLN-DCEL: {'front': [], 'back': ['glass table with the white chairs'], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': 'a16dec9339d9487491fd55c465312db4', 'heading': 2.617993877991494, 'elevation': 0.0, 'LX': 8.39367961883545, 'LY': 3.24360990524292, 'LZ': 1.285789966583252, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:turn left
+      Previous Step Completion:yes
+      Confidence: 0.95
+      Brief Reason:The trajectory shows the agent has moved from viewpoint 3 to viewpoint 4, which is a left turn from the previous straight path. The turn is clearly completed as the agent is now facing a new direction, consistent with the instruction to 'turn left'.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 9
+      Alternative Direction: [11]
+      Subsequent Path Plan: Move forward to image 9, then turn right to image 11, and stop by the glass table with the white chairs.
+Destination Invisible at Distance Estimation
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not visible in the current view. The agent is currently at viewpoint 5, which is near a wall with holes, but not yet at the glass table. The instruction requires turning left after passing the wall, so the agent must continue moving.
+Stop FPV-Estimated Distance: -1.0
+[SpatialGPT Select Node: 55abf0a58ae34456a58279523de80df6
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+a16dec9339d9487491fd55c465312db4
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:37:48] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6
+[2026-07-17 21:38:09] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=55abf0a58ae34456a58279523de80df6 dt=20.797s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 177f67f4e2264d24996672f84cd38405
+     Add Candidate Node: a16dec9339d9487491fd55c465312db4
+     Add Observation Node: 55abf0a58ae34456a58279523de80df6
+     Set Node Property of Agent Orientation: 9
+     Set Node Property of VLN-DCEL: {'front': ['glass table with the white chairs'], 'back': [], 'left': [], 'right': ['glass table with the white chairs']}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '55abf0a58ae34456a58279523de80df6', 'heading': 4.71238898038469, 'elevation': 0.0, 'LX': 7.1640801429748535, 'LY': 3.3887999057769775, 'LZ': 1.2925399541854858, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 11
+      Alternative Direction: ['0', '11']
+      Subsequent Path Plan: Go straight to the door, then turn right to enter the dining area and wait by the glass table with the white chairs.
+Destination Seen at Distance Estimation (Meter): 4.2
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not visible in the current view. The agent is currently at viewpoint 6, and the path to the destination requires moving past the wall with holes and turning left, which is not yet completed. The agent must continue navigating.
+Stop FPV-Estimated Distance: 4.2
+[SpatialGPT Select Node: 177f67f4e2264d24996672f84cd38405
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+a16dec9339d9487491fd55c465312db4
+55abf0a58ae34456a58279523de80df6
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:38:25] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405
+[2026-07-17 21:38:44] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=177f67f4e2264d24996672f84cd38405 dt=19.499s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 88a0c5bfe697410199d1846d7ecea7d1
+     Add Candidate Node: 55abf0a58ae34456a58279523de80df6
+     Add Candidate Node: 8138835f78064c28b6c9c35a89eda7d6
+     Add Candidate Node: 37a978a1cc0e4464a714fb676f65b7fb
+     Add Candidate Node: 859a7c9c12c847d9a6860bd6d6bd635a
+     Add Observation Node: 177f67f4e2264d24996672f84cd38405
+     Set Node Property of Agent Orientation: 11
+     Set Node Property of VLN-DCEL: {'front': ['glass table with the white chairs'], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '177f67f4e2264d24996672f84cd38405', 'heading': 5.759586531581287, 'elevation': 0.0, 'LX': 6.591710090637207, 'LY': 5.04541015625, 'LZ': 1.3003400564193726, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Temporal Synchronize Inferenece by VLN-BEV]
+      Previous Instruction:turn left
+      Previous Step Completion:yes
+      Confidence: 0.95
+      Brief Reason:The agent's trajectory shows a clear left turn from viewpoint 4 to viewpoint 5, indicating the 'turn left' instruction has been completed. The current viewpoint (7) is positioned after the turn, confirming the action is done.
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 10
+      Alternative Direction: [9, 11]
+      Subsequent Path Plan: Move forward into the kitchen, then turn right to enter the dining area. Stop by the glass table with the white chairs.
+Destination Seen at Distance Estimation (Meter): 2.5
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not visible in the current view. The agent is currently at viewpoint 7, and the path to the destination requires moving past the wall with holes and turning left, which is not yet completed. The agent must continue navigating.
+Stop FPV-Estimated Distance: 2.5
+Add current viewpoint to stop_alternative_list: 177f67f4e2264d24996672f84cd38405
+[SpatialGPT Select Node: 88a0c5bfe697410199d1846d7ecea7d1
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+a16dec9339d9487491fd55c465312db4
+55abf0a58ae34456a58279523de80df6
+177f67f4e2264d24996672f84cd38405
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:39:04] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1
+[2026-07-17 21:39:24] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=88a0c5bfe697410199d1846d7ecea7d1 dt=19.540s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 74761d0d8d3748e296b419643083df93
+     Add Candidate Node: 177f67f4e2264d24996672f84cd38405
+     Add Observation Node: 88a0c5bfe697410199d1846d7ecea7d1
+     Set Node Property of Agent Orientation: 3
+     Set Node Property of VLN-DCEL: {'front': [], 'back': ['glass table with the white chairs'], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '88a0c5bfe697410199d1846d7ecea7d1', 'heading': 1.5707963267948966, 'elevation': 0.0, 'LX': 8.517350196838379, 'LY': 5.114260196685791, 'LZ': 1.286870002746582, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 9
+      Alternative Direction: [3, 4, 5, 6, 7, 8, 9]
+      Subsequent Path Plan: Move forward to image 3, then turn right to image 4, then turn right to image 5, then turn right to image 6, then turn right to image 7, then turn right to image 8, then turn right to image 9. Stop at the glass table with the white chairs.
+Destination Seen at Distance Estimation (Meter): 2.5
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not visible in the current view. The agent is currently at viewpoint 7, and the path to the destination requires moving forward and turning left, indicating the agent should continue navigating.
+Stop FPV-Estimated Distance: 2.5
+Add current viewpoint to stop_alternative_list: 88a0c5bfe697410199d1846d7ecea7d1
+[SpatialGPT Select Node: 74761d0d8d3748e296b419643083df93
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+a16dec9339d9487491fd55c465312db4
+55abf0a58ae34456a58279523de80df6
+177f67f4e2264d24996672f84cd38405
+88a0c5bfe697410199d1846d7ecea7d1
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:39:39] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93
+[2026-07-17 21:39:59] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=74761d0d8d3748e296b419643083df93 dt=19.838s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 4c778faa3ebe485590f7b201b0090251
+     Add Candidate Node: 88a0c5bfe697410199d1846d7ecea7d1
+     Add Observation Node: 74761d0d8d3748e296b419643083df93
+     Set Node Property of Agent Orientation: 3
+     Set Node Property of VLN-DCEL: {'front': [], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '74761d0d8d3748e296b419643083df93', 'heading': 1.5707963267948966, 'elevation': 0.0, 'LX': 10.652700424194336, 'LY': 5.092569828033447, 'LZ': 1.2794300317764282, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 9
+      Alternative Direction: [9, 10]
+      Subsequent Path Plan: Move forward to image 9, then turn right to image 10, and continue forward to reach the glass table with white chairs.
+Destination Invisible at Distance Estimation
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not visible in the current view. The agent is currently at viewpoint 7, and the path to the destination requires moving past the wall with holes (viewpoint 8) and turning left, which is not yet completed. The red circle indicates the agent's current position, and the destination is outside this circle.
+Stop FPV-Estimated Distance: -1.0
+[SpatialGPT Select Node: 4c778faa3ebe485590f7b201b0090251
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+a16dec9339d9487491fd55c465312db4
+55abf0a58ae34456a58279523de80df6
+177f67f4e2264d24996672f84cd38405
+88a0c5bfe697410199d1846d7ecea7d1
+74761d0d8d3748e296b419643083df93
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+[2026-07-17 21:40:14] [bev worker 1247] start BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251
+[2026-07-17 21:40:33] [bev worker 1247] finish BEV build scan=sT4fr6TAbpF viewpoint=4c778faa3ebe485590f7b201b0090251 dt=19.851s
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 74761d0d8d3748e296b419643083df93
+     Add Candidate Node: a16dec9339d9487491fd55c465312db4
+     Add Observation Node: 4c778faa3ebe485590f7b201b0090251
+     Set Node Property of Agent Orientation: 6
+     Set Node Property of VLN-DCEL: {'front': [], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'step', 'scan': 'sT4fr6TAbpF', 'viewpoint': '4c778faa3ebe485590f7b201b0090251', 'heading': 3.141592653589793, 'elevation': 0.0, 'LX': 10.689399719238281, 'LY': 3.337790012359619, 'LZ': 1.27701997756958, 'is_reverie': False}
+Received notification of bev map ready
+[GPT Spatial Alignment Inference]
+      Landmark at Current Step: glass table with the white chairs
+      Execute Movement Action: wait by the glass table with the white chairs
+      Selected Direction: 9
+      Alternative Direction: [10, 11]
+      Subsequent Path Plan: Move forward to image 9, then turn right to image 10, and proceed to the glass table with white chairs.
+Destination Invisible at Distance Estimation
+[GPT Stop Inferenece by VLN-BEV]
+      Stop_Now:no
+      Confidence: 0.95
+      Brief Reason:The destination is the glass table with white chairs, which is not located within the red dashed circle (current agent position). The agent must continue moving to reach the table, as the current viewpoint is at point 7, and the table is further along the path.
+Stop FPV-Estimated Distance: -1.0
+Entering Late Stage of Navigation, Checking Alternative Stop List: [('859a7c9c12c847d9a6860bd6d6bd635a', 1.2992600202560425, 1.5), ('177f67f4e2264d24996672f84cd38405', 1.2992600202560425, 2.5), ('88a0c5bfe697410199d1846d7ecea7d1', 1.2992600202560425, 2.5)]
+Multiple Stop Alternatives in the List: [('859a7c9c12c847d9a6860bd6d6bd635a', 1.2992600202560425, 1.5), ('177f67f4e2264d24996672f84cd38405', 1.2992600202560425, 2.5), ('88a0c5bfe697410199d1846d7ecea7d1', 1.2992600202560425, 2.5)]
+[GPT Stop Alternative Inferenece by VLN-BEV]
+      Selected Stop Viewpoint:4
+      Reasoning:The instruction directs the agent to head straight, pass a wall with holes, then turn left to wait by a glass table with white chairs. The trajectory shows the agent moving from node 0 to 1, 2, 3, and then to 4. Node 4 is located at the left turn point, where the path changes direction, and the semantic map shows a glass table and white chairs (green chairs) in that area, matching the destination description.
+Selected Alternative Viewpoint from Stop Alternative List: 859a7c9c12c847d9a6860bd6d6bd635a
+Start Backtracking to Alternative Stop - Next Node: 74761d0d8d3748e296b419643083df93
+[SpatialGPT Select Node: 74761d0d8d3748e296b419643083df93
+Latest Trajectory:
+9d001c6bc0f64a699fd36a6b9a61266a
+828c1d66f183441db9ac8bfcc7e5de31
+8138835f78064c28b6c9c35a89eda7d6
+37a978a1cc0e4464a714fb676f65b7fb
+859a7c9c12c847d9a6860bd6d6bd635a
+a16dec9339d9487491fd55c465312db4
+55abf0a58ae34456a58279523de80df6
+177f67f4e2264d24996672f84cd38405
+88a0c5bfe697410199d1846d7ecea7d1
+74761d0d8d3748e296b419643083df93
+4c778faa3ebe485590f7b201b0090251
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+-----------Move to New Obervation Point-------------
+Back to stop point, follow the alternative path
+Next node on the alternative path: 88a0c5bfe697410199d1846d7ecea7d1
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+-----------Move to New Obervation Point-------------
+Back to stop point, follow the alternative path
+Next node on the alternative path: 177f67f4e2264d24996672f84cd38405
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+-----------Move to New Obervation Point-------------
+Back to stop point, follow the alternative path
+Next node on the alternative path: 55abf0a58ae34456a58279523de80df6
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+-----------Move to New Obervation Point-------------
+Back to stop point, follow the alternative path
+Next node on the alternative path: a16dec9339d9487491fd55c465312db4
+Grounded Path: ['9d001c6bc0f64a699fd36a6b9a61266a', '8138835f78064c28b6c9c35a89eda7d6', '37a978a1cc0e4464a714fb676f65b7fb', '859a7c9c12c847d9a6860bd6d6bd635a', 'c3c5e202b9a04a63ae33742fe9095936', 'c06aae190b804b759496db0b88fe4820']
+eval 1 predictions
+Current case  -  steps: 15.00  lengths: 25.85  nav_error: 6.67  oracle_error: 2.57  sr: 0.00  oracle_sr: 100.00  spl: 0.00
+-------------------- Rollout Reset --------------------
+Navigation Instruction Steps: [{'action_name': 'Walk through the kitchen', 'landmarks': []}, {'action_name': 'Go past the sink', 'landmarks': [{'landmark_name': 'sink', 'relative_spatial_area': 'left'}]}, {'action_name': 'Go past the stove stand', 'landmarks': [{'landmark_name': 'stove stand', 'relative_spatial_area': 'left'}]}, {'action_name': 'Go in front of the dining table on the bench side', 'landmarks': [{'landmark_name': 'dining table', 'relative_spatial_area': 'front'}]}]
+-----------Move to New Obervation Point-------------
+[GPT Visual Observations for Updating SKG]
+     Add Candidate Node: 37b040b5341f4f6abb47f59d60963072
+     Add Candidate Node: 5848b29e18924f5594fbec08340fb7a9
+     Add Candidate Node: 74a12d0675b54d6193ba63104a6a8e2e
+     Add Candidate Node: f032c9ee981a4462914468785f0a4abe
+     Add Candidate Node: f553a3287fb2438b979f09b09448c7c0
+     Add Observation Node: 6c4ef6ac616042bc9fe4adc5f6d21b10
+     Set Node Property of Agent Orientation: 6
+     Set Node Property of VLN-DCEL: {'front': [], 'back': [], 'left': [], 'right': []}
+Requesting BEV build in-process: {'type': 'reset', 'scan': '8WUmhLawc2A', 'viewpoint': '6c4ef6ac616042bc9fe4adc5f6d21b10', 'heading': 3.141592653589793, 'elevation': 0.0, 'LX': -3.547060012817383, 'LY': 7.55580997467041, 'LZ': 1.4092700481414795, 'is_reverie': False}
+[2026-07-17 21:41:01] [bev process] worker stopped pid=1247 mode=graceful stats(graceful=2,terminate=0,kill=0)
+[2026-07-17 21:41:01] [bev process] worker switched old_pid=1247 -> new_pid=1313 reason=reset scan=8WUmhLawc2A restart_count=3
+[2026-07-17 21:41:03] [bev worker 1313] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+Platform::WindowlessEglApplication::tryCreateContext(): no EGL devices found, likely a driver issue; enable --magnum-gpu-validation to see additional info
+WindowlessContext: Unable to create windowless context
+[2026-07-17 21:41:03] [bev process] worker build failed once: worker_pipe_closed; restarting worker and retrying retry_count=1
+[2026-07-17 21:41:03] [bev process] worker stopped pid=1313 mode=none stats(graceful=2,terminate=0,kill=0)
+[2026-07-17 21:41:03] [bev process] worker switched old_pid=1313 -> new_pid=1378 reason=retry scan=8WUmhLawc2A restart_count=4
+[2026-07-17 21:41:05] [bev worker 1378] start BEV build scan=8WUmhLawc2A viewpoint=6c4ef6ac616042bc9fe4adc5f6d21b10
+Platform::WindowlessEglApplication::tryCreateContext(): no EGL devices found, likely a driver issue; enable --magnum-gpu-validation to see additional info
+WindowlessContext: Unable to create windowless context
+Traceback (most recent call last):
+  File "/root/mount/Matterport3DSimulator/SpatialQwen-BEV/vln/main_gpt.py", line 109, in <module>
+    main()
+  File "/root/mount/Matterport3DSimulator/SpatialQwen-BEV/vln/main_gpt.py", line 105, in main
+    valid(args, val_envs)
+  File "/root/mount/Matterport3DSimulator/SpatialQwen-BEV/vln/main_gpt.py", line 80, in valid
+    agent.test(args=args)
+  File "/root/mount/Matterport3DSimulator/SpatialQwen-BEV/vln/agent_base.py", line 31, in test
+    for traj in self.rollout(**kwargs):
+  File "/root/mount/Matterport3DSimulator/SpatialQwen-BEV/vln/gpt_agent.py", line 115, in rollout
+    normal=self.spatialexpert.spatial_representation(obs, t, self.env) 
+  File "/root/mount/Matterport3DSimulator/SpatialQwen-BEV/vln/spatial_expert.py", line 392, in spatial_representation
+    raise RuntimeError(f"bev manager error: {result}")
+RuntimeError: bev manager error: {'ok': False, 'err': 'worker_pipe_closed'}

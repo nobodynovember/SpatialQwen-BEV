@@ -1,0 +1,150 @@
+{
+  "trajectory": [
+    {
+      "viewpointId": "638b72f18fda418394fe583341e9c17b",
+      "x": -2.3565900325775146,
+      "y": -20.11520004272461,
+      "z": -1.8786200284957886,
+      "display_number": 0
+    },
+    {
+      "viewpointId": "877ddff288064faeb2e0b5107bd6a0bc",
+      "x": -3.821739912033081,
+      "y": -17.244199752807617,
+      "z": -1.8884799480438232,
+      "display_number": 1
+    },
+    {
+      "viewpointId": "804c03492c564949b1d6e951d3cd2649",
+      "x": -2.679680109024048,
+      "y": -13.498200416564941,
+      "z": -1.8506300449371338,
+      "display_number": 2
+    },
+    {
+      "viewpointId": "50f665df35f04b48a8e138ee19d71d7f",
+      "x": -2.480289936065674,
+      "y": -11.922499656677246,
+      "z": -1.8485300540924072,
+      "display_number": 3
+    },
+    {
+      "viewpointId": "e63cf86fedff45b8a5c895adb0cf614f",
+      "x": -2.4833500385284424,
+      "y": -9.693710327148438,
+      "z": -1.8378100395202637,
+      "display_number": 4
+    },
+    {
+      "viewpointId": "073ce382f78d4a81b8c673591a954997",
+      "x": -2.3783299922943115,
+      "y": -7.950419902801514,
+      "z": -1.8329800367355347,
+      "display_number": 5
+    },
+    {
+      "viewpointId": "cde9277ca5a74751ac26fa289a0ec5f5",
+      "x": -2.38316011428833,
+      "y": -5.886730194091797,
+      "z": -1.827720046043396,
+      "display_number": 6
+    },
+    {
+      "viewpointId": "a5542bba97c44a2cabd742267454fd13",
+      "x": -2.263979911804199,
+      "y": -4.033130168914795,
+      "z": -1.8246300220489502,
+      "display_number": 7
+    },
+    {
+      "viewpointId": "7791c5109cc04bc8b1c56f38aec384a3",
+      "x": -5.236939907073975,
+      "y": -5.621109962463379,
+      "z": -1.8351199626922607,
+      "display_number": 8
+    },
+    {
+      "viewpointId": "b14e23a8dde045779c223af6025a8b87",
+      "x": -5.130859851837158,
+      "y": -4.5051798820495605,
+      "z": -1.8309199810028076,
+      "display_number": 9
+    },
+    {
+      "viewpointId": "7b5d4b406dcf462e8edb1b1dce825695",
+      "x": -3.813770055770874,
+      "y": -4.440100193023682,
+      "z": -1.8291900157928467,
+      "display_number": 10
+    }
+  ],
+  "other_nodes": [],
+  "traj_to_candidates": [
+    {
+      "trajectory_viewpointId": "638b72f18fda418394fe583341e9c17b",
+      "trajectory_display_number": 0,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "877ddff288064faeb2e0b5107bd6a0bc",
+      "trajectory_display_number": 1,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "804c03492c564949b1d6e951d3cd2649",
+      "trajectory_display_number": 2,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "50f665df35f04b48a8e138ee19d71d7f",
+      "trajectory_display_number": 3,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "e63cf86fedff45b8a5c895adb0cf614f",
+      "trajectory_display_number": 4,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "073ce382f78d4a81b8c673591a954997",
+      "trajectory_display_number": 5,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "cde9277ca5a74751ac26fa289a0ec5f5",
+      "trajectory_display_number": 6,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "a5542bba97c44a2cabd742267454fd13",
+      "trajectory_display_number": 7,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "7791c5109cc04bc8b1c56f38aec384a3",
+      "trajectory_display_number": 8,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "b14e23a8dde045779c223af6025a8b87",
+      "trajectory_display_number": 9,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    },
+    {
+      "trajectory_viewpointId": "7b5d4b406dcf462e8edb1b1dce825695",
+      "trajectory_display_number": 10,
+      "candidate_viewpointIds": [],
+      "candidate_display_numbers": []
+    }
+  ]
+}
