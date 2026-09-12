@@ -6,3 +6,6 @@
 /web/dist/
 /web/.vite/
 *.tsbuildinfo
+__pycache__/
+*.pyc
+*.pyo

@@ -1,8 +1,8 @@
-# SpatialGPT-BEV
+# SpatialQwen-BEV
 
-SpatialGPT-BEV is a LLM-based agent designed for indoor zero-shot **Vision-and-Language Navigation (VLN)** task.
+SpatialQwen-BEV is a LLM-based agent designed for indoor zero-shot **Vision-and-Language Navigation (VLN)** task.
 
-It extends [SpatialGPT](https://github.com/nobodynovember/SpatialGPT) by introducing a **unified topological–metric memory**.
+It extends [SpatialGPT](https://github.com/nobodynovember/SpatialGPT) by introducing a **unified topological–metric memory** on local Qwen LLM.
 <p align="center">
   <img src="storybev.png" width="70%">
 </p>
@@ -31,8 +31,8 @@ Key Features:
 ## 📦 Clone the Repository
 
 ```bash
-git clone https://github.com/nobodynovember/SpatialGPT-BEV.git
-cd SpatialGPT-BEV
+git clone https://github.com/nobodynovember/SpatialQwen-BEV.git
+cd SpatialQwen-BEV
 ```
 
 
@@ -60,31 +60,31 @@ pip install -r requirements.txt
 5. For semantic grounding, download the LSeg checkpoint (demo_e200.ckpt) as instructed [here](https://github.com/isl-org/lang-seg), and place it under the bevbuilder/lseg/checkpoints directory .
 
 
-## 🔑 Set OpenAI API Key
+## 🧠 Configure the Qwen LLM
 
-Fill in your API key at Line 12 of the file: GPT/api.py. 
+SpatialQwen-BEV uses a locally deployed Qwen model through an OpenAI-compatible
+API. Set `QWEN_BASE_URL` to the address of your Qwen service. The provided run
+script uses `qwen3-vl-8b`.
 
-
-## ▶️ Run SpatialGPT-BEV
+No API key is required when the local Qwen endpoint has authentication disabled.
+The client automatically uses `EMPTY` as the placeholder key expected by the
+OpenAI Python SDK. If the endpoint address or authentication changes, configure
+them with environment variables:
 
 ```bash
-export PYTHONPATH=$PYTHONPATH:/path/to/SpatialGPT-BEV
+export QWEN_BASE_URL=http://localhost:<port>/v1
+export QWEN_API_KEY=<key>  # optional; omit for an unauthenticated local server
+```
+
+
+## ▶️ Run SpatialQwen-BEV
+
+```bash
+export PYTHONPATH=$PYTHONPATH:/path/to/SpatialQwen-BEV
 bash scripts/spatialgpt-bev.sh
 ```
 
 Note: If the MatterSim module is not found when running, rebuild MatterSim with Python 3.10 to ensure compatibility with the runtime environment. For example: cmake -DEGL_RENDERING=ON .. -DPYTHON_EXECUTABLE=/root/miniconda/envs/spatialgpt-bev/bin/python
-
-## Web V0 Replay Console
-
-The `web/` directory contains a Web-first V0 interface for reviewing a SpatialQwen-BEV navigation replay without starting the simulator, BEV worker, or model endpoint. It uses the repository's existing RGB and BEV artifacts as local demo assets, and its task console can query an already-running local Qwen service through the Vite server proxy.
-
-```bash
-cd web
-npm install
-npm run dev
-```
-
-Open the local Vite URL, normally `http://localhost:5173`. From the same network, this server is also reachable at `http://10.79.128.145:4173`. See `web/README.md` for the V0 scope and V1 integration boundary.
 
 
 ## ⚙️ Key Parameters
@@ -98,7 +98,7 @@ Open the local Vite URL, normally `http://localhost:5173`. From the same network
 --max_action_len 15
 --save_pred
 --stop_after 3
---llm gpt-4o
+--llm qwen3-vl-8b
 --response_format json
 --max_tokens 4096
 ```
